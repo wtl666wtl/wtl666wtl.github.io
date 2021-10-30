@@ -11,7 +11,7 @@ title                    : "My Homepage"
 title_separator          : "-"
 name                     : &name "Tianle Wang"
 description              : &description "personal description"
-url                      : https://wtl666wtl.github.io/
+url                      : https://wtl666wtl.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wtl666wtl/wtl666wtl.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Tianle Wang"
-  avatar           : "profile.png"
+  avatar           : "jjz.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Shanghai, China"
   employer         :
