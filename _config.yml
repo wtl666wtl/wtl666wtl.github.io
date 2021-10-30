@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Tianle Wang"
-  avatar           : "photo.png"
-  bio              : "Your biography for the left-hand sidebar"
+  avatar           : "photo.jpg"
+  bio              : "Junior student in ACM Honors Class of Shanghai Jiaotong University(SJTU)"
   location         : "Shanghai, China"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
