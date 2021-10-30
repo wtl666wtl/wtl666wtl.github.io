@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Tianle Wang"
+title: "Tianle Wang (王天乐)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
