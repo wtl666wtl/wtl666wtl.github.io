@@ -11,6 +11,11 @@ redirect_from:
 ## Bio
 I am a senior student at [ACM Honor class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
 
+## Education
+* **Shanghai Jiao Tong University** 2019-2023 (Expected)
+  Honors Bachelor of Engineering (B.Eng. Hons) in Computer Science
+
+2016 - 2020
 
 ## Miscellaneous
 **Materials**
