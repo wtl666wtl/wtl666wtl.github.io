@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 ## Bio
-I am a senior student at [ACM Honor class]{https://acm.sjtu.edu.cn/home}, [Shanghai Jiao Tong University]{http://en.sjtu.edu.cn/}.
+I am a senior student at [ACM Honor class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
+
 
 ## Miscellaneous
