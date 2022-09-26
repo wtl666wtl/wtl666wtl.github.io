@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Tianle Wang <font face="STCAIYUN">王天乐</font>"
+title: "Tianle Wang"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
