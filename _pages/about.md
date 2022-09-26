@@ -15,8 +15,6 @@ I am a senior student at [ACM Honor class](https://acm.sjtu.edu.cn/home), [Shang
 * **Shanghai Jiao Tong University** 2019-2023 (Expected)
   * Honors Bachelor of Engineering (B.Eng. Hons) in Computer Science
 
-2016 - 2020
-
 ## Miscellaneous
 **Materials**
 * [CV](https://github.com/wtl666wtl/wtl666wtl.github.io/blob/master/files/cv.pdf)
