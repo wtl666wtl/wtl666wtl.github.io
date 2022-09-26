@@ -8,13 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-来来来，全体目光向我看齐，我宣布个事，我是伞兵！
-
-## Research Experience
-
-## Education
-
-## Honors
+## Bio
+I am a senior student at [ACM Honor class]{https://acm.sjtu.edu.cn/home}, [Shanghai Jiao Tong University]{http://en.sjtu.edu.cn/}.
 
 ## Miscellaneous
