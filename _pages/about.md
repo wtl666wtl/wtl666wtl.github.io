@@ -10,12 +10,13 @@ redirect_from:
 
 ## Bio
 I am a senior student at [ACM Honor class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
+
 Research Interest: I am broadly interested in nature language processing and mechine learning. now I focus on text classification and prompt learning.
 
 ## Education
 * B.E. in Computer Science, Shanghai Jiao Tong University, 2019-2023 (Expected)
 
-## Miscellaneous
+## Misc
 **Materials**
 * [CV](https://github.com/wtl666wtl/wtl666wtl.github.io/blob/master/files/cv.pdf)
 
