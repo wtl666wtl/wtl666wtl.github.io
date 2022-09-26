@@ -14,7 +14,7 @@ I am a senior student at [ACM Honor class](https://acm.sjtu.edu.cn/home), [Shang
 
 ## Miscellaneous
 **Materials**
-[CV](https://github.com/wtl666wtl/wtl666wtl.github.io/blob/master/files/cv.pdf)
+* [CV](https://github.com/wtl666wtl/wtl666wtl.github.io/blob/master/files/cv.pdf)
 
 **Teaching Experience**
 * Teaching Assistant [Data Structures - Spring 2021](https://acm.sjtu.edu.cn/wiki/Data_Structures_2021)
