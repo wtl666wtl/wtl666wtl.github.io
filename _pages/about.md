@@ -10,6 +10,7 @@ redirect_from:
 
 ## Bio
 I am a senior student at [ACM Honor class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
+I did a remote internship at [SDLab](https://shangjingbo1226.github.io/lab/), advised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/) and a remote internship at [SLS Lab](http://groups.csail.mit.edu/sls/), advised by [Prof. James Glass](http://groups.csail.mit.edu/sls/people/glass.shtml) and [Dr. Tianxing He](https://people.csail.mit.edu/cloudygoose/).
 
 **Research Interest**: I am broadly interested in nature language processing and mechine learning. now I focus on text classification and prompt learning.
 
