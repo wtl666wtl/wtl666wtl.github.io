@@ -15,7 +15,7 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 **Research Interest**: I am broadly interested in nature language processing and mechine learning. Now I focus on text classification and prompt learning.
 
 ## Education
-* B.E. in Computer Science, Shanghai Jiao Tong University, 2019-2023 (Expected)
+* B.Sc. Hons in Computer Science, Shanghai Jiao Tong University, 2019-2023 (Expected)
 
 ## Misc
 **Materials**
