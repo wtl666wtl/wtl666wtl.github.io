@@ -28,3 +28,4 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 **Interests**
 * I like history, especially those political and military events that took place in ancient China and Europe.
 * I love a lot of sports, like ping-pong and badminton. I am also a fan of the Golden State Warriors.
+* I also favorite many board games such as Mahjong, Othello (aka Reversi) and Gobang.
