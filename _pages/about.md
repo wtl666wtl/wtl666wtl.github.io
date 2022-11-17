@@ -12,10 +12,10 @@ redirect_from:
 I am a senior student at [ACM Honors class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
 During my junior and senior year, I took a remote internship at [SDLab](https://shangjingbo1226.github.io/lab/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/) and [SLS Lab](http://groups.csail.mit.edu/sls/), advised by [Prof. James Glass](http://groups.csail.mit.edu/sls/people/glass.shtml) and [Dr. Tianxing He](https://people.csail.mit.edu/cloudygoose/).
 
-**Research Interest**: I am broadly interested in nature language processing and mechine learning. Now I focus on text classification and prompt learning.
+**Research Interest**: I am broadly interested in NLP and ML. Now I focus on text classification with limited supervision and NLG metrics.
 
 ## Education
-* B.Sc. Hons in Computer Science, Shanghai Jiao Tong University, 2019-2023 (Expected)
+* B.E. Hons in Computer Science, Shanghai Jiao Tong University, 2019-2023 (Expected)
 
 ## Misc
 **Materials**
@@ -28,4 +28,4 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 **Interests**
 * I like history, especially those political and military events that took place in ancient China and Europe.
 * I love a lot of sports, like ping-pong and badminton. I am also a fan of the Golden State Warriors.
-* I also favorite many board games such as Mahjong, Othello (aka Reversi) and Gobang.
+* I also favorite many board games such as Hearthstone, Mahjong, Othello (aka Reversi) and Gobang.
