@@ -16,7 +16,7 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 
 ## Education
 
-<img src="../images/sjtu.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)
+<img src="../images/sjtu.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
 &emsp; B.E. Hons in Computer Science, 2019-2023 (Expected)
 
 ## Misc
