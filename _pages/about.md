@@ -15,11 +15,12 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 **Research Interest**: I am broadly interested in NLP and ML. Now I focus on text classification with limited supervision and NLG metrics.
 
 ## Education
-* B.E. Hons in Computer Science, Shanghai Jiao Tong University, 2019-2023 (Expected)
+<img src="../images/sjtu.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; Shanghai Jiao Tong University
+&emsp; B.E. Hons in Computer Science, 2019-2023 (Expected)
 
 ## Misc
 **Materials**
-* [CV](https://github.com/wtl666wtl/wtl666wtl.github.io/blob/master/files/cv.pdf)
+* [CV](files/cv.pdf)
 
 **Teaching Experience**
 * Teaching Assistant [Data Structures - Spring 2021](https://acm.sjtu.edu.cn/wiki/Data_Structures_2021)
