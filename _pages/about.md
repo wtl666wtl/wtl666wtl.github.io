@@ -15,7 +15,8 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 **Research Interest**: I am broadly interested in NLP and ML. Now I focus on text classification with limited supervision and NLG metrics.
 
 ## Education
-<img src="../images/sjtu.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; Shanghai Jiao Tong University
+
+<img src="../images/sjtu.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)
 &emsp; B.E. Hons in Computer Science, 2019-2023 (Expected)
 
 ## Misc
