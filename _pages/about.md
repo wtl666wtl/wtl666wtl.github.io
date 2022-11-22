@@ -28,6 +28,6 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 * Teaching Assistant [Great Ideas in Computer Science - Fall 2020](https://acm.sjtu.edu.cn/wiki/Great_Ideas_in_Computer_Science_2020)
 
 **Interests**
-* I like history as well as historical simulation games such as Victoria, Heart of Iron and Total War.
+* I like history as well as historical simulation games such as Victoria and Heart of Iron.
 * I love a lot of sports, like ping-pong and badminton. I am also a fan of the Golden State Warriors.
-* I also favorite many board games such as Hearthstone, Mahjong, Othello (aka Reversi) and Gobang.
+* I favorite many board games such as Hearthstone, Mahjong, Othello (aka Reversi) and Gobang.
