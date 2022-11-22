@@ -29,5 +29,5 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 
 **Interests**
 * I like history as well as historical simulation games such as Victoria and Heart of Iron.
-* I love a lot of sports, like ping-pong and badminton. I'm also a fan of Golden State Warriors.
+* I love a lot of sports, like ping-pong and badminton. I'm also a fan of the Golden State Warriors.
 * I favorite many board games such as Hearthstone, Mahjong, Othello (aka Reversi) and Gobang.
