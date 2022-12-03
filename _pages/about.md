@@ -28,6 +28,5 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 * Teaching Assistant [Great Ideas in Computer Science - Fall 2020](https://acm.sjtu.edu.cn/wiki/Great_Ideas_in_Computer_Science_2020)
 
 **Interests**
-* I like ancient history.
-* I like playing ping-pong and badminton. I'm also a fan of the Golden State Warriors.
-* I favorite many board games such as Hearthstone, Mahjong, Othello (aka Reversi) and Gobang.
+* I like ancient Chinese history.
+* I love many board games such as Mahjong, Othello (aka Reversi) and Gobang.
