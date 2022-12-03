@@ -27,6 +27,3 @@ During my junior and senior year, I took a remote internship at [SDLab](https://
 * Teaching Assistant [Data Structures - Spring 2021](https://acm.sjtu.edu.cn/wiki/Data_Structures_2021)
 * Teaching Assistant [Great Ideas in Computer Science - Fall 2020](https://acm.sjtu.edu.cn/wiki/Great_Ideas_in_Computer_Science_2020)
 
-**Interests**
-* I like ancient history and visiting different museums.
-* I love many board games such as Mahjong, Othello (aka Reversi) and Gobang.
