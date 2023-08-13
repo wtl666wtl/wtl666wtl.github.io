@@ -31,7 +31,7 @@ During my junior and senior years, I took a remote internship at [SDLab](https:/
 
 * On the Blind Spots of Model-Based Evaluation Metrics for Text Generation
   
-  Tianxing He, Jingyu Zhang, **Tianle Wang**, Sachin Kumar, Kyunghyun Cho, James Glass, Yulia Tsvetkov. ACL 2023.
+  Tianxing He, Jingyu Zhang, **Tianle Wang**, Sachin Kumar, Kyunghyun Cho, James Glass and Yulia Tsvetkov. ACL 2023.
 
 ## Misc
 **Materials**
