@@ -12,7 +12,7 @@ redirect_from:
 I am a senior student at [ACM Honors class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
 During my junior and senior years, I took a remote internship at [SDLab](https://shangjingbo1226.github.io/lab/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/) and [SLS Lab](http://groups.csail.mit.edu/sls/), advised by [Prof. James Glass](http://groups.csail.mit.edu/sls/people/glass.shtml) and [Dr. Tianxing He](https://people.csail.mit.edu/cloudygoose/).
 
-**Research Interests** I am broadly interested in NLP and ML. Now I focus on text classification with limited supervision and NLG metrics.
+**Research Interests** I am broadly interested in Natural Language Processing and Data Mining. Now I focus on text classification with limited supervision and the large language model.
 
 ## Education
 
