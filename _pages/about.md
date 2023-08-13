@@ -27,7 +27,7 @@ During my junior and senior years, I took a remote internship at [SDLab](https:/
 
 * A Benchmark on Extremely Weakly Supervised Text Classification: Reconcile Seed Matching and Prompting Approaches
   
-  Zihan Wang*, **Tianle Wang***, Dheeraj Mekala and Jingbo Shang. ACL (Findings) 2023.
+  Zihan Wang\*, **Tianle Wang\***, Dheeraj Mekala and Jingbo Shang. ACL (Findings) 2023.
 
 * On the Blind Spots of Model-Based Evaluation Metrics for Text Generation
   
