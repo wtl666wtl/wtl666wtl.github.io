@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## Bio
-I am a first-year master student at [UCSD](https://ucsd.edu/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/). I obtained my B.E. from [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in [ACM Honors class](https://acm.sjtu.edu.cn/home).
+I am a first-year master's student at [UCSD](https://ucsd.edu/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/). I obtained my B.E. from [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in [ACM Honors class](https://acm.sjtu.edu.cn/home).
 
 <!--During my junior and senior years, I took a remote internship at [SDLab](https://shangjingbo1226.github.io/lab/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/) and [SLS Lab](http://groups.csail.mit.edu/sls/), advised by [Prof. James Glass](http://groups.csail.mit.edu/sls/people/glass.shtml) and [Dr. Tianxing He](https://people.csail.mit.edu/cloudygoose/).
 
