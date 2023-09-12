@@ -9,15 +9,19 @@ redirect_from:
 ---
 
 ## Bio
-I am a senior student at [ACM Honors class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/).
-During my junior and senior years, I took a remote internship at [SDLab](https://shangjingbo1226.github.io/lab/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/) and [SLS Lab](http://groups.csail.mit.edu/sls/), advised by [Prof. James Glass](http://groups.csail.mit.edu/sls/people/glass.shtml) and [Dr. Tianxing He](https://people.csail.mit.edu/cloudygoose/).
+I am a first-year master student at [UCSD](https://ucsd.edu/). I obtained my B.E. from [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in [ACM Honors class](https://acm.sjtu.edu.cn/home).
 
-**Research Interests** I am broadly interested in Natural Language Processing and Data Mining. Now I focus on text classification with limited supervision and the large language model.
+<!--During my junior and senior years, I took a remote internship at [SDLab](https://shangjingbo1226.github.io/lab/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/) and [SLS Lab](http://groups.csail.mit.edu/sls/), advised by [Prof. James Glass](http://groups.csail.mit.edu/sls/people/glass.shtml) and [Dr. Tianxing He](https://people.csail.mit.edu/cloudygoose/).
+
+**Research Interests** I am broadly interested in Natural Language Processing and Data Mining. Now I focus on text classification with limited supervision and the large language model.-->
 
 ## Education
 
+<img src="../images/ucsd.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; [University of California San Diego](https://ucsd.edu/)  
+&emsp; B.E. in Computer Science, 2023-2025 (Expected)
+
 <img src="../images/sjtu.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
-&emsp; B.E. Hons in Computer Science, 2019-2023 (Expected)
+&emsp; B.E. in Computer Science, 2019-2023
 
 ## Publication
 
