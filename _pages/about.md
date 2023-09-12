@@ -18,7 +18,7 @@ I am a first-year master student at [UCSD](https://ucsd.edu/). I obtained my B.E
 ## Education
 
 <img src="../images/ucsd.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; [University of California San Diego](https://ucsd.edu/)  
-&emsp; B.E. in Computer Science, 2023-2025 (Expected)
+&emsp; M.S. in Data Science, 2023-2025 (Expected)
 
 <img src="../images/sjtu.png" alt="sjtu" width="60" height="60" style="float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
 &emsp; B.E. in Computer Science, 2019-2023
