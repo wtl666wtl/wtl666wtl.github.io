@@ -25,15 +25,15 @@ I am a first-year master's student at [UCSD](https://ucsd.edu/) supervised by [P
 
 ## Publication
 
-* WOT-Class: Weakly Supervised Open-world Text Classification
+* [WOT-Class: Weakly Supervised Open-world Text Classification](https://arxiv.org/abs/2305.12401)
   
   **Tianle Wang**, Zihan Wang, Weitang Liu and Jingbo Shang. CIKM 2023.
 
-* A Benchmark on Extremely Weakly Supervised Text Classification: Reconcile Seed Matching and Prompting Approaches
+* [A Benchmark on Extremely Weakly Supervised Text Classification: Reconcile Seed Matching and Prompting Approaches](https://arxiv.org/abs/2305.12749)
   
   Zihan Wang\*, **Tianle Wang\***, Dheeraj Mekala and Jingbo Shang. ACL (Findings) 2023.
 
-* On the Blind Spots of Model-Based Evaluation Metrics for Text Generation
+* [On the Blind Spots of Model-Based Evaluation Metrics for Text Generation](https://arxiv.org/abs/2212.10020)
   
   Tianxing He, Jingyu Zhang, **Tianle Wang**, Sachin Kumar, Kyunghyun Cho, James Glass and Yulia Tsvetkov. ACL 2023.
 
