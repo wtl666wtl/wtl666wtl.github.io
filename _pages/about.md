@@ -25,10 +25,6 @@ I am a first-year master's student at [UCSD](https://ucsd.edu/) supervised by [P
 
 ## Publication
 
-* [LatticeGen: A Cooperative Framework Which Hides Generated Text in A Lattice For Privacy-Aware Generation on Cloud](https://arxiv.org/abs/2309.17157)
-
-  Mengke Zhang, Tianxing He, **Tianle Wang**, Lu Mi, Fatemehsadat Mireshghallah, Binyi Chen, Hao Wang, Yulia Tsvetkov. ArXiv Preprint.
-
 * [WOT-Class: Weakly Supervised Open-world Text Classification](https://arxiv.org/abs/2305.12401)
   
   **Tianle Wang**, Zihan Wang, Weitang Liu and Jingbo Shang. CIKM 2023.
@@ -40,6 +36,14 @@ I am a first-year master's student at [UCSD](https://ucsd.edu/) supervised by [P
 * [On the Blind Spots of Model-Based Evaluation Metrics for Text Generation](https://arxiv.org/abs/2212.10020)
   
   Tianxing He, Jingyu Zhang, **Tianle Wang**, Sachin Kumar, Kyunghyun Cho, James Glass and Yulia Tsvetkov. ACL 2023.
+
+* [LatticeGen: A Cooperative Framework Which Hides Generated Text in A Lattice For Privacy-Aware Generation on Cloud](https://arxiv.org/abs/2309.17157)
+
+  Mengke Zhang, Tianxing He, **Tianle Wang**, Lu Mi, Fatemehsadat Mireshghallah, Binyi Chen, Hao Wang, Yulia Tsvetkov. ArXiv Preprint.
+
+* [OMNIINPUT: A Model-centric Evaluation Framework through Output Distribution](https://arxiv.org/abs/2312.03291)
+
+  Weitang Liu, Ying Wai Li, **Tianle Wang**, Yi-Zhuang You, Jingbo Shang. ArXiv Preprint.
 
 ## Misc
 **Materials**
