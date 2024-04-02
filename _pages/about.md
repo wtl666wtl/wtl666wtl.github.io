@@ -39,7 +39,7 @@ I am a first-year master's student at [UCSD](https://ucsd.edu/) supervised by [P
 
 * [LatticeGen: A Cooperative Framework Which Hides Generated Text in A Lattice For Privacy-Aware Generation on Cloud](https://arxiv.org/abs/2309.17157)
 
-  Mengke Zhang, Tianxing He, **Tianle Wang**, Lu Mi, Fatemehsadat Mireshghallah, Binyi Chen, Hao Wang, Yulia Tsvetkov. ArXiv Preprint.
+  Mengke Zhang, Tianxing He, **Tianle Wang**, Lu Mi, Fatemehsadat Mireshghallah, Binyi Chen, Hao Wang, Yulia Tsvetkov. NAACL (Findings) 2024.
 
 * [OMNIINPUT: A Model-centric Evaluation Framework through Output Distribution](https://arxiv.org/abs/2312.03291)
 
