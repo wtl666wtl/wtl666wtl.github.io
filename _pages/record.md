@@ -3,8 +3,7 @@ permalink: /record
 title: "Recording of papers I read"
 excerpt: "record"
 author_profile: true
-redirect_from: 
-  - /record/
+redirect_from:
   - /record.html
 ---
 
