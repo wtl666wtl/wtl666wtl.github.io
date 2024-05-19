@@ -11,6 +11,7 @@ redirect_from:
 * [Convergent Learning: Do different neural networks learn the same representations?](https://arxiv.org/abs/1511.07543)
 * [Similarity of Neural Network Representations Revisited](https://arxiv.org/abs/1905.00414) (CKA)
 * [Knowledge distillation: A good teacher is patient and consistent](https://arxiv.org/abs/2106.05237)
+* [The Platonic Representation Hypothesis](https://arxiv.org/abs/2405.07987)
 
 ## Msic
 * [Topological Graph Neural Networks](https://arxiv.org/abs/2102.07835)
