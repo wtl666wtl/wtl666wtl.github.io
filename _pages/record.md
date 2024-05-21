@@ -17,6 +17,7 @@ redirect_from:
 
 ## Msic
 * [Topological Graph Neural Networks](https://arxiv.org/abs/2102.07835)
+* [Debiasing Made State-of-the-art: Revisiting the Simple Seed-based Weak Supervision for Text Classification](https://arxiv.org/abs/2305.14794)
 
 
 
