@@ -7,7 +7,7 @@ redirect_from:
   - /recording
 ---
 
-## Related
+## Related to Data Distillation / Process Supervision / Convergent Learning
 * [Convergent Learning: Do different neural networks learn the same representations?](https://arxiv.org/abs/1511.07543)
 * [Similarity of Neural Network Representations Revisited](https://arxiv.org/abs/1905.00414) (CKA)
 * [Knowledge distillation: A good teacher is patient and consistent](https://arxiv.org/abs/2106.05237)
@@ -15,9 +15,13 @@ redirect_from:
 * [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050)
 * [Learning ReLUs via Gradient Descent](https://arxiv.org/abs/1705.04591)
 
+## Related to NLP
+* [Debiasing Made State-of-the-art: Revisiting the Simple Seed-based Weak Supervision for Text Classification](https://arxiv.org/abs/2305.14794)
+* [Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS](https://arxiv.org/abs/2310.02980)
+
 ## Msic
 * [Topological Graph Neural Networks](https://arxiv.org/abs/2102.07835)
-* [Debiasing Made State-of-the-art: Revisiting the Simple Seed-based Weak Supervision for Text Classification](https://arxiv.org/abs/2305.14794)
+
 
 
 
