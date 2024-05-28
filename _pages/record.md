@@ -21,6 +21,7 @@ redirect_from:
 
 ## Msic
 * [Topological Graph Neural Networks](https://arxiv.org/abs/2102.07835)
+* [Visual Chirality](https://arxiv.org/abs/2006.09512)
 
 
 
