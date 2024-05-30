@@ -18,6 +18,7 @@ redirect_from:
 ## Related to NLP
 * [Debiasing Made State-of-the-art: Revisiting the Simple Seed-based Weak Supervision for Text Classification](https://arxiv.org/abs/2305.14794)
 * [Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS](https://arxiv.org/abs/2310.02980)
+* [Faith and Fate: Limits of Transformers on Compositionality](https://arxiv.org/abs/2305.18654)
 
 ## Msic
 * [Topological Graph Neural Networks](https://arxiv.org/abs/2102.07835)
