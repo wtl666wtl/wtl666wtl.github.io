@@ -15,10 +15,11 @@ redirect_from:
 * [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050)
 * [Learning ReLUs via Gradient Descent](https://arxiv.org/abs/1705.04591)
 
-## Related to NLP
+## Related to ML
 * [Debiasing Made State-of-the-art: Revisiting the Simple Seed-based Weak Supervision for Text Classification](https://arxiv.org/abs/2305.14794)
 * [Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS](https://arxiv.org/abs/2310.02980)
 * [Faith and Fate: Limits of Transformers on Compositionality](https://arxiv.org/abs/2305.18654)
+* [Automatic Discovery of Visual Circuits](https://arxiv.org/abs/2404.14349)
 
 ## Msic
 * [Topological Graph Neural Networks](https://arxiv.org/abs/2102.07835)
