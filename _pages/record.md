@@ -14,6 +14,7 @@ redirect_from:
 * [The Platonic Representation Hypothesis](https://arxiv.org/abs/2405.07987)
 * [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050)
 * [Learning ReLUs via Gradient Descent](https://arxiv.org/abs/1705.04591)
+* [Object Detectors Emerge in Deep Scene CNNs](https://arxiv.org/abs/1412.6856)
 
 ## Related to ML
 * [Debiasing Made State-of-the-art: Revisiting the Simple Seed-based Weak Supervision for Text Classification](https://arxiv.org/abs/2305.14794)
