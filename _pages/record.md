@@ -15,6 +15,7 @@ redirect_from:
 * [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050)
 * [Learning ReLUs via Gradient Descent](https://arxiv.org/abs/1705.04591)
 * [Object Detectors Emerge in Deep Scene CNNs](https://arxiv.org/abs/1412.6856)
+* [Learning Concise and Descriptive Attributes for Visual Recognition](https://arxiv.org/abs/2308.03685)
 
 ## Related to ML
 * [Debiasing Made State-of-the-art: Revisiting the Simple Seed-based Weak Supervision for Text Classification](https://arxiv.org/abs/2305.14794)
