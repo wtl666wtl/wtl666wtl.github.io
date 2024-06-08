@@ -24,6 +24,7 @@ redirect_from:
 * [Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS](https://arxiv.org/abs/2310.02980)
 * [Faith and Fate: Limits of Transformers on Compositionality](https://arxiv.org/abs/2305.18654)
 * [Automatic Discovery of Visual Circuits](https://arxiv.org/abs/2404.14349)
+* [Speculative Streaming: Fast LLM Inference without Auxiliary Models](https://arxiv.org/abs/2402.11131)
 
 ## Msic
 * [Topological Graph Neural Networks](https://arxiv.org/abs/2102.07835)
