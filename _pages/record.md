@@ -28,7 +28,8 @@ redirect_from:
 * [Visual Chirality](https://arxiv.org/abs/2006.09512)
 * [A general mechanism for perceptual decision-making in the human brain](https://www.nature.com/articles/nature02966)
 
-
+## Unknown
+* [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains](https://arxiv.org/abs/2006.10739)
 
 
 
