@@ -9,6 +9,7 @@ redirect_from:
 
 ## Related to Data Distillation / Process Supervision / Convergent Learning
 * [Convergent Learning: Do different neural networks learn the same representations?](https://arxiv.org/abs/1511.07543)
+* [Do Wide and Deep Networks Learn the Same Things? Uncovering How Neural Network Representations Vary with Width and Depth](https://arxiv.org/abs/2010.15327)
 * [Similarity of Neural Network Representations Revisited](https://arxiv.org/abs/1905.00414) (CKA)
 * [Knowledge distillation: A good teacher is patient and consistent](https://arxiv.org/abs/2106.05237)
 * [The Platonic Representation Hypothesis](https://arxiv.org/abs/2405.07987)
