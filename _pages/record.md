@@ -19,8 +19,11 @@ redirect_from:
 * [Learning Concise and Descriptive Attributes for Visual Recognition](https://arxiv.org/abs/2308.03685)
 * [What Knowledge Gets Distilled in Knowledge Distillation?](https://arxiv.org/abs/2205.16004)
 
-## Related to ML
+## Related to Weak Supervision
 * [Debiasing Made State-of-the-art: Revisiting the Simple Seed-based Weak Supervision for Text Classification](https://arxiv.org/abs/2305.14794)
+* [Weaker Than You Think: A Critical Look at Weakly Supervised Learning](https://arxiv.org/abs/2305.17442)
+
+## Related to General ML
 * [Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS](https://arxiv.org/abs/2310.02980)
 * [Faith and Fate: Limits of Transformers on Compositionality](https://arxiv.org/abs/2305.18654)
 * [Automatic Discovery of Visual Circuits](https://arxiv.org/abs/2404.14349)
