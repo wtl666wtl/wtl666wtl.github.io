@@ -20,6 +20,12 @@ redirect_from:
 * [What Knowledge Gets Distilled in Knowledge Distillation?](https://arxiv.org/abs/2205.16004)
 * [Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks](https://arxiv.org/abs/2302.08399)
 * [TinyCLIP: CLIP Distillation via Affinity Mimicking and Weight Inheritance](https://arxiv.org/abs/2309.12314)
+
+
+## Related to Framework
+* [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (CLIP)
+* [CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917)
+* BLIP
 * [Vision Model Pre-training on Interleaved Image-Text Data via Latent Compression Learning](https://arxiv.org/abs/2406.07543)
 
 ## Related to Weak Supervision
