@@ -25,7 +25,7 @@ redirect_from:
 ## Related to Framework
 * [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (CLIP)
 * [CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917)
-* BLIP
+* [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086)
 * [Vision Model Pre-training on Interleaved Image-Text Data via Latent Compression Learning](https://arxiv.org/abs/2406.07543)
 
 ## Related to Weak Supervision
