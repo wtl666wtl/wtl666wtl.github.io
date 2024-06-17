@@ -21,7 +21,7 @@ redirect_from:
 * [TinyCLIP: CLIP Distillation via Affinity Mimicking and Weight Inheritance](https://arxiv.org/abs/2309.12314)
 
 ## Related to the Interpretable ML
-* Text Embeddings Reveal (Almost) As Much As Text
+* [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
 * [Learning Concise and Descriptive Attributes for Visual Recognition](https://arxiv.org/abs/2308.03685)
 * 2402.05945
 * ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models
