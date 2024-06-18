@@ -18,16 +18,16 @@ redirect_from:
 * [Object Detectors Emerge in Deep Scene CNNs](https://arxiv.org/abs/1412.6856)
 * [What Knowledge Gets Distilled in Knowledge Distillation?](https://arxiv.org/abs/2205.16004)
 * [Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks](https://arxiv.org/abs/2302.08399)
-* [TinyCLIP: CLIP Distillation via Affinity Mimicking and Weight Inheritance](https://arxiv.org/abs/2309.12314)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
 * [Learning Concise and Descriptive Attributes for Visual Recognition](https://arxiv.org/abs/2308.03685)
-* 2402.05945
+* [Eliminating Information Leakage in Hard Concept Bottleneck Models with Supervised, Hierarchical Concept Learning](https://arxiv.org/abs/2402.05945)
 * ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models
 
 ## Related to Framework
 * [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (CLIP)
+* [TinyCLIP: CLIP Distillation via Affinity Mimicking and Weight Inheritance](https://arxiv.org/abs/2309.12314)
 * [CoCa: Contrastive Captioners are Image-Text Foundation Models](https://arxiv.org/abs/2205.01917)
 * [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086)
 * [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)
