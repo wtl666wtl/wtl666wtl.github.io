@@ -22,7 +22,7 @@ redirect_from:
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
 * [Learning Concise and Descriptive Attributes for Visual Recognition](https://arxiv.org/abs/2308.03685)
-* [Eliminating Information Leakage in Hard Concept Bottleneck Models with Supervised, Hierarchical Concept Learning](https://arxiv.org/abs/2402.05945)
+* [Eliminating Information Leakage in Hard Concept Bottleneck Models with Supervised, Hierarchical Concept Learning](https://arxiv.org/abs/2402.05945) (need extra annotation)
 * ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models
 * [Visual Transformers: Token-based Image Representation and Processing for Computer Vision](https://arxiv.org/pdf/2006.03677)
 
