@@ -23,6 +23,7 @@ redirect_from:
 * [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
 * [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)
 * [SLiC-HF: Sequence Likelihood Calibration with HumanFeedback](https://arxiv.org/abs/2305.10425)
+* [A General Theoretical Paradigm to Understand Learning from Human Preferences](https://arxiv.org/abs/2310.12036) (IPO, don't read yet)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
