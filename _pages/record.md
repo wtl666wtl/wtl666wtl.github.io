@@ -19,9 +19,10 @@ redirect_from:
 * [What Knowledge Gets Distilled in Knowledge Distillation?](https://arxiv.org/abs/2205.16004)
 * [Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks](https://arxiv.org/abs/2302.08399)
 
-## Related to Align with Human / RLHF / DPO:
+## Related to Align with Human / RLHF / DAP (DPO, SLiC-HF, IPO):
 * [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
 * [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)
+* [SLiC-HF: Sequence Likelihood Calibration with HumanFeedback](https://arxiv.org/abs/2305.10425)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
