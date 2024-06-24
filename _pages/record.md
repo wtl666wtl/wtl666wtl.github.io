@@ -20,11 +20,12 @@ redirect_from:
 * [Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks](https://arxiv.org/abs/2302.08399)
 
 ## Related to Align with Human / RLHF / DAP (DPO, SLiC-HF, IPO):
-* [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)
-* [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)
+* [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) (RLHF)
+* [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290) (DPO)
 * [SLiC-HF: Sequence Likelihood Calibration with HumanFeedback](https://arxiv.org/abs/2305.10425)
 * [A General Theoretical Paradigm to Understand Learning from Human Preferences](https://arxiv.org/abs/2310.12036) (IPO, skip)
-* [Direct Language Model Alignment from Online AI Feedback](https://arxiv.org/abs/2402.04792)
+* [Direct Language Model Alignment from Online AI Feedback](https://arxiv.org/abs/2402.04792) (OAIF)
+* [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) (SPIN)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
