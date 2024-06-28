@@ -27,6 +27,7 @@ redirect_from:
 * [Direct Language Model Alignment from Online AI Feedback](https://arxiv.org/abs/2402.04792) (OAIF)
 * [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) (SPIN)
 * [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020)
+* [Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs](https://arxiv.org/pdf/2402.14740)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
