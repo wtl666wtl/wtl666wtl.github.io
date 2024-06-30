@@ -63,6 +63,7 @@ redirect_from:
 * [Visual Chirality](https://arxiv.org/abs/2006.09512)
 * [A general mechanism for perceptual decision-making in the human brain](https://www.nature.com/articles/nature02966)
 * [Cross-Lingual Transfer for Natural Language Inference via Multilingual Prompt Translator](https://arxiv.org/abs/2403.12407)
+* [Enhancing Cross-lingual Natural Language Inference by Soft Prompting with Multilingual Verbalizer](https://arxiv.org/abs/2305.12761)
 
 ## Unknown
 * [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains](https://arxiv.org/abs/2006.10739)
