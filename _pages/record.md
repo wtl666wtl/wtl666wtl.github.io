@@ -38,6 +38,7 @@ redirect_from:
 * [Visual Transformers: Token-based Image Representation and Processing for Computer Vision](https://arxiv.org/pdf/2006.03677)
 * [Large Language Models are Interpretable Learners](https://arxiv.org/abs/2406.17224)
 * [INViTE: INterpret and Control Vision-Language Models with Text Explanations](https://openreview.net/forum?id=5iENGLEJKG)
+* [Attention-based Interpretability with Concept Transformers](https://openreview.net/forum?id=kAa9eDS0RdO)
 
 ## Related to Framework
 * [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (CLIP)
