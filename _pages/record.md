@@ -40,6 +40,9 @@ redirect_from:
 * [INViTE: INterpret and Control Vision-Language Models with Text Explanations](https://openreview.net/forum?id=5iENGLEJKG)
 * [Attention-based Interpretability with Concept Transformers](https://openreview.net/forum?id=kAa9eDS0RdO)
 
+## Related to LLM Agnet
+* [BYTESIZED32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games](https://arxiv.org/abs/2305.14879)
+
 ## Related to Framework
 * [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (CLIP)
 * [TinyCLIP: CLIP Distillation via Affinity Mimicking and Weight Inheritance](https://arxiv.org/abs/2309.12314)
