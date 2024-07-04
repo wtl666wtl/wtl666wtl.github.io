@@ -42,6 +42,7 @@ redirect_from:
 
 ## Related to LLM Agnet
 * [BYTESIZED32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games](https://arxiv.org/abs/2305.14879)
+* [LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models](https://arxiv.org/abs/2310.03903)
 
 ## Related to Framework
 * [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) (CLIP)
