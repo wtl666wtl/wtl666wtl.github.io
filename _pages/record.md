@@ -29,6 +29,7 @@ redirect_from:
 * [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020)
 * [Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs](https://arxiv.org/pdf/2402.14740)
 * [Finding GPT-4’s mistakes with GPT-4](https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/)
+* [Direct Preference Optimization with an Offset](https://arxiv.org/abs/2402.10571)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
