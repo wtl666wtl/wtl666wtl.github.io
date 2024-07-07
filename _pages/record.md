@@ -33,6 +33,7 @@ redirect_from:
 * [MindStar: Enhancing Math Reasoning in Pre-trained LLMs at Inference Time](https://arxiv.org/abs/2405.16265)
 * [WARM: On the Benefits of Weight Averaged Reward Models](https://arxiv.org/abs/2401.12187)
 * [WARP: On the Benefits of Weight Averaged Rewarded Policies](https://arxiv.org/abs/2406.16768)
+* [Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms](https://arxiv.org/abs/2406.02900)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
