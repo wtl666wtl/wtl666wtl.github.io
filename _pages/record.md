@@ -37,6 +37,7 @@ redirect_from:
 * [Ever: Mitigating Hallucination in Large Language Models through Real-Time Verification and Rectification](https://arxiv.org/abs/2311.09114)
 * [STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465)
 * [PROMPT2MODEL: GeneratingDeployableModelsfromNaturalLanguageInstructions](https://arxiv.org/abs/2308.12261)
+* [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
