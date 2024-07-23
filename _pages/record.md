@@ -38,6 +38,7 @@ redirect_from:
 * [STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465)
 * [PROMPT2MODEL: GeneratingDeployableModelsfromNaturalLanguageInstructions](https://arxiv.org/abs/2308.12261)
 * [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560)
+* [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2406.08464)
 
 ## Related to the Interpretable ML
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816)
