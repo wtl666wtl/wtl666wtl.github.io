@@ -18,6 +18,7 @@ redirect_from:
 * [Object Detectors Emerge in Deep Scene CNNs](https://arxiv.org/abs/1412.6856)
 * [What Knowledge Gets Distilled in Knowledge Distillation?](https://arxiv.org/abs/2205.16004)
 * [Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks](https://arxiv.org/abs/2302.08399)
+* [ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness](https://arxiv.org/abs/1811.12231)
 
 ## Related to Align with Human / RLHF / DAP (DPO, SLiC-HF, IPO) / Data gen:
 * [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) (RLHF)
