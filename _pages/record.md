@@ -86,6 +86,11 @@ redirect_from:
 * [Enhancing Cross-lingual Natural Language Inference by Soft Prompting with Multilingual Verbalizer](https://arxiv.org/abs/2305.12761)
 * [Simul-LLM: A Framework for Exploring High-Quality Simultaneous Translation with Large Language Models](https://arxiv.org/abs/2312.04691)
 
+## Simul-LLM
+* [Simul-LLM: A Framework for Exploring High-Quality Simultaneous Translation with Large Language Models](https://arxiv.org/abs/2312.04691)
+* [Simultaneous Machine Translation with Large Language Models](https://arxiv.org/abs/2309.06706) (RALCP)
+* [Conversational SIMULMT: Efficient Simultaneous Translation with Large Language Models](https://arxiv.org/abs/2402.10552) (reuse KV cache)
+
 ## Unknown
 * [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains](https://arxiv.org/abs/2006.10739)
 * [A Theory for Emergence of Complex Skills in Language Models](https://arxiv.org/abs/2307.15936)
