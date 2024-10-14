@@ -53,6 +53,7 @@ redirect_from:
 * [INViTE: INterpret and Control Vision-Language Models with Text Explanations](https://openreview.net/forum?id=5iENGLEJKG)
 * [Attention-based Interpretability with Concept Transformers](https://openreview.net/forum?id=kAa9eDS0RdO)
 * [Neural Prototype Trees for Interpretable Fine-grained Image Recognition](https://arxiv.org/abs/2012.02046)
+* [Predicting Neural Network Accuracy from Weights](https://arxiv.org/abs/2002.11448)
 
 ## Related to LLM Agnet
 * [BYTESIZED32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games](https://arxiv.org/abs/2305.14879)
@@ -83,6 +84,7 @@ redirect_from:
 * [A general mechanism for perceptual decision-making in the human brain](https://www.nature.com/articles/nature02966)
 * [Cross-Lingual Transfer for Natural Language Inference via Multilingual Prompt Translator](https://arxiv.org/abs/2403.12407)
 * [Enhancing Cross-lingual Natural Language Inference by Soft Prompting with Multilingual Verbalizer](https://arxiv.org/abs/2305.12761)
+* [Simul-LLM: A Framework for Exploring High-Quality Simultaneous Translation with Large Language Models](https://arxiv.org/abs/2312.04691)
 
 ## Unknown
 * [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains](https://arxiv.org/abs/2006.10739)
