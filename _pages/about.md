@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## Bio
-I am a first-year master's student at [UCSD](https://ucsd.edu/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/). I obtained my B.E. from [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in [ACM Honors class](https://acm.sjtu.edu.cn/home).
+I am a second-year master's student at [UCSD](https://ucsd.edu/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/). I obtained my B.E. from [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) in [ACM Honors class](https://acm.sjtu.edu.cn/home).
 
 <!--During my junior and senior years, I took a remote internship at [SDLab](https://shangjingbo1226.github.io/lab/) supervised by [Prof. Jingbo Shang](https://shangjingbo1226.github.io/) and [SLS Lab](http://groups.csail.mit.edu/sls/), advised by [Prof. James Glass](http://groups.csail.mit.edu/sls/people/glass.shtml) and [Dr. Tianxing He](https://people.csail.mit.edu/cloudygoose/).
 
@@ -25,6 +25,14 @@ I am a first-year master's student at [UCSD](https://ucsd.edu/) supervised by [P
 
 ## Publication
 
+* [AnyPrefer: An Automatic Framework for Preference Data Synthesis](...)
+
+  Yiyang Zhou\*, Zhaoyang Wang\*, **Tianle Wang\***, Shangyu Xing, Peng Xia, Bo Li, Kaiyuan Zheng, Zijian Zhang, Zhaorun Chen, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Weitong Zhang, Ying Wei, Mohit Bansal, Huaxiu Yao
+
+* [LatticeGen: A Cooperative Framework Which Hides Generated Text in A Lattice For Privacy-Aware Generation on Cloud](https://arxiv.org/abs/2309.17157)
+
+  Mengke Zhang, Tianxing He, **Tianle Wang**, Lu Mi, Fatemehsadat Mireshghallah, Binyi Chen, Hao Wang, Yulia Tsvetkov. NAACL (Findings) 2024.
+
 * [WOT-Class: Weakly Supervised Open-world Text Classification](https://arxiv.org/abs/2305.12401)
   
   **Tianle Wang**, Zihan Wang, Weitang Liu and Jingbo Shang. CIKM 2023.
@@ -36,10 +44,6 @@ I am a first-year master's student at [UCSD](https://ucsd.edu/) supervised by [P
 * [On the Blind Spots of Model-Based Evaluation Metrics for Text Generation](https://arxiv.org/abs/2212.10020)
   
   Tianxing He, Jingyu Zhang, **Tianle Wang**, Sachin Kumar, Kyunghyun Cho, James Glass and Yulia Tsvetkov. ACL 2023.
-
-* [LatticeGen: A Cooperative Framework Which Hides Generated Text in A Lattice For Privacy-Aware Generation on Cloud](https://arxiv.org/abs/2309.17157)
-
-  Mengke Zhang, Tianxing He, **Tianle Wang**, Lu Mi, Fatemehsadat Mireshghallah, Binyi Chen, Hao Wang, Yulia Tsvetkov. NAACL (Findings) 2024.
 
 * [OMNIINPUT: A Model-centric Evaluation Framework through Output Distribution](https://arxiv.org/abs/2312.03291)
 
