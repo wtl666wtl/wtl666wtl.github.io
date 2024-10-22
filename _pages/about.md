@@ -27,7 +27,7 @@ I am a second-year master's student at [UCSD](https://ucsd.edu/) supervised by [
 
 * [AnyPrefer: An Automatic Framework for Preference Data Synthesis](...)
 
-  Yiyang Zhou\*, Zhaoyang Wang\*, **Tianle Wang\***, Shangyu Xing, Peng Xia, Bo Li, Kaiyuan Zheng, Zijian Zhang, Zhaorun Chen, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Weitong Zhang, Ying Wei, Mohit Bansal, Huaxiu Yao
+  Yiyang Zhou\*, Zhaoyang Wang\*, **Tianle Wang\***, Shangyu Xing, Peng Xia, Bo Li, Kaiyuan Zheng, Zijian Zhang, Zhaorun Chen, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Weitong Zhang, Ying Wei, Mohit Bansal, Huaxiu Yao. Neurips Safe Generative AI Workshop 2024, under ICLR review.
 
 * [LatticeGen: A Cooperative Framework Which Hides Generated Text in A Lattice For Privacy-Aware Generation on Cloud](https://arxiv.org/abs/2309.17157)
 
