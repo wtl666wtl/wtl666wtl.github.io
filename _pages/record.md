@@ -54,8 +54,9 @@ redirect_from:
 * [Attention-based Interpretability with Concept Transformers](https://openreview.net/forum?id=kAa9eDS0RdO)
 * [Neural Prototype Trees for Interpretable Fine-grained Image Recognition](https://arxiv.org/abs/2012.02046)
 * [Predicting Neural Network Accuracy from Weights](https://arxiv.org/abs/2002.11448)
+* [Looking Inward: Language Models Can Learn About Themselves by Introspection](https://arxiv.org/abs/2410.13787)
 
-## Related to LLM Agnet
+## Related to LLM Agent
 * [BYTESIZED32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games](https://arxiv.org/abs/2305.14879)
 * [LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models](https://arxiv.org/abs/2310.03903)
 
