@@ -45,10 +45,6 @@ I am a second-year master's student at [UCSD](https://ucsd.edu/) supervised by [
   
   Tianxing He, Jingyu Zhang, **Tianle Wang**, Sachin Kumar, Kyunghyun Cho, James Glass and Yulia Tsvetkov. ACL 2023.
 
-* [OMNIINPUT: A Model-centric Evaluation Framework through Output Distribution](https://arxiv.org/abs/2312.03291)
-
-  Weitang Liu, Ying Wai Li, **Tianle Wang**, Yi-Zhuang You, Jingbo Shang. ArXiv Preprint.
-
 ## Misc
 **Materials**
 * [CV](files/cv.pdf)
