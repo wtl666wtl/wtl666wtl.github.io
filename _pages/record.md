@@ -7,6 +7,12 @@ redirect_from:
   - /recording
 ---
 
+## EMNLP 2024
+* [An image speaks a thousand words, but can everyone listen? On image transcreation for cultural relevance](https://arxiv.org/abs/2404.01247)
+
+
+-------------------------
+
 ## Related to Data Distillation / Process Supervision / Convergent Learning
 * [Convergent Learning: Do different neural networks learn the same representations?](https://arxiv.org/abs/1511.07543)
 * [Do Wide and Deep Networks Learn the Same Things? Uncovering How Neural Network Representations Vary with Width and Depth](https://arxiv.org/abs/2010.15327)
@@ -85,7 +91,6 @@ redirect_from:
 * [A general mechanism for perceptual decision-making in the human brain](https://www.nature.com/articles/nature02966)
 * [Cross-Lingual Transfer for Natural Language Inference via Multilingual Prompt Translator](https://arxiv.org/abs/2403.12407)
 * [Enhancing Cross-lingual Natural Language Inference by Soft Prompting with Multilingual Verbalizer](https://arxiv.org/abs/2305.12761)
-* [Simul-LLM: A Framework for Exploring High-Quality Simultaneous Translation with Large Language Models](https://arxiv.org/abs/2312.04691)
 
 ## Simul-LLM
 * [Simul-LLM: A Framework for Exploring High-Quality Simultaneous Translation with Large Language Models](https://arxiv.org/abs/2312.04691)
