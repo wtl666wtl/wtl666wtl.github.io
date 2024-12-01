@@ -9,6 +9,7 @@ redirect_from:
 
 ## EMNLP 2024
 * [An image speaks a thousand words, but can everyone listen? On image transcreation for cultural relevance](https://arxiv.org/abs/2404.01247)
+* [CoGen: Learning from Feedback with Coupled Comprehension and Generation](https://arxiv.org/abs/2408.15992)
 
 
 -------------------------
