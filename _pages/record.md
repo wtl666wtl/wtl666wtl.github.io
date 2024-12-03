@@ -11,6 +11,7 @@ redirect_from:
 * [An image speaks a thousand words, but can everyone listen? On image transcreation for cultural relevance](https://arxiv.org/abs/2404.01247)
 * [CoGen: Learning from Feedback with Coupled Comprehension and Generation](https://arxiv.org/abs/2408.15992)
 * [Backward Lens: Projecting Language Model Gradients into the Vocabulary Space](https://arxiv.org/abs/2402.12865)
+* [Pretraining Data Detection for Large Language Models: A Divergence-based Calibration Method](https://arxiv.org/abs/2409.14781)
 
 
 -------------------------
