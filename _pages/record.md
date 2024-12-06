@@ -13,6 +13,7 @@ redirect_from:
 * [Backward Lens: Projecting Language Model Gradients into the Vocabulary Space](https://arxiv.org/abs/2402.12865)
 * [Pretraining Data Detection for Large Language Models: A Divergence-based Calibration Method](https://arxiv.org/abs/2409.14781)
 * [Towards Robust Speech Representation Learning for Thousands of Languages](https://arxiv.org/abs/2407.00837)
+* [Do LLMs Plan Like Human Writers? Comparing Journalist Coverage of Press Releases with LLMs](https://aclanthology.org/2024.emnlp-main.1216/)
 
 
 -------------------------
