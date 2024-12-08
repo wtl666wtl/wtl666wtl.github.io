@@ -18,6 +18,9 @@ redirect_from:
 
 -------------------------
 
+## Related to Weak to Strong
+* [Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models](https://arxiv.org/abs/2405.19262)
+
 ## Related to Data Distillation / Process Supervision / Convergent Learning
 * [Convergent Learning: Do different neural networks learn the same representations?](https://arxiv.org/abs/1511.07543)
 * [Do Wide and Deep Networks Learn the Same Things? Uncovering How Neural Network Representations Vary with Width and Depth](https://arxiv.org/abs/2010.15327)
