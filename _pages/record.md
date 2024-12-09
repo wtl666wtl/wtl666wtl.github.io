@@ -18,8 +18,10 @@ redirect_from:
 
 -------------------------
 
-## Related to Weak to Strong
+## Related to Weak to Strong / Speculative Decoding
 * [Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models](https://arxiv.org/abs/2405.19262)
+* [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://arxiv.org/abs/2305.09781)
+
 
 ## Related to Data Distillation / Process Supervision / Convergent Learning
 * [Convergent Learning: Do different neural networks learn the same representations?](https://arxiv.org/abs/1511.07543)
