@@ -14,6 +14,7 @@ redirect_from:
 * [Pretraining Data Detection for Large Language Models: A Divergence-based Calibration Method](https://arxiv.org/abs/2409.14781)
 * [Towards Robust Speech Representation Learning for Thousands of Languages](https://arxiv.org/abs/2407.00837)
 * [Do LLMs Plan Like Human Writers? Comparing Journalist Coverage of Press Releases with LLMs](https://aclanthology.org/2024.emnlp-main.1216/)
+* [Enhancing Language Model Factuality via Activation-Based Confidence Calibration and Guided Decoding](https://arxiv.org/abs/2406.13230)
 
 
 -------------------------
