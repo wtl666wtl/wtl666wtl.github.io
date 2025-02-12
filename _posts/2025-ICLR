@@ -3,7 +3,7 @@ layout: post
 title:  "AnyPrefer: An Automatic Framework for Preference Data Synthesis"
 date:   2025-01-20
 image: /images/2025-iclr-anyprefer.png
-categories: research
+categories: wtl_research
 author: "Tianle Wang"
 authors: "Yiyang Zhou*, Zhaoyang Wang*, <strong>Tianle Wang*</strong>, Shangyu Xing, Peng Xia, Bo Li, Kaiyuan Zheng, Zijian Zhang, Zhaorun Chen, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Weitong Zhang, Ying Wei, Mohit Bansal, Huaxiu Yao"
 venue: "The Thirteenth International Conference on Learning Representations, 2025"
