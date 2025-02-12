@@ -9,6 +9,6 @@ authors: "Yiyang Zhou*, Zhaoyang Wang*, <strong>Tianle Wang*</strong>, Shangyu X
 venue: "The Thirteenth International Conference on Learning Representations"
 ---
 
-Build a framework to synthesize high-quality preference data for preference training of a user-specific target model.
+Build a framework to synthesize high-quality data for preference training.
 
 [openreview link](https://openreview.net/pdf?id=WpZyPk79Fu){:target="_blank"}
