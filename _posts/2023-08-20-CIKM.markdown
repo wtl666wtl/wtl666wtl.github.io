@@ -8,6 +8,8 @@ author: "Tianle Wang"
 authors: "<strong>Tianle Wang</strong>, Zihan Wang, Weitang Liu, Jingbo Shang"
 venue: "The Conference on Information and Knowledge Management"
 arxiv: https://arxiv.org/abs/2305.12401
+code: https://github.com/wtl666wtl/WOT-Class
+slides: /images/2023-cikm-slides.pdf
 ---
 
 Propose a novel framework WOT-Class in weakly supervised open-world text classification.
