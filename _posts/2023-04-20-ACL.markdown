@@ -1,0 +1,15 @@
+---
+layout: post
+title:  ""
+date:   2023-04-20
+image: /images/2023-acl-xtc.png
+categories: wtl
+author: "Tianle Wang"
+authors: "Zihan Wang*, <strong>Tianle Wang*</strong>, Dheeraj Mekala, Jingbo Shang"
+venue: "The 61st Annual Meeting of the Association for Computational Linguistics, Findings"
+arxiv: https://arxiv.org/abs/2305.12749
+---
+
+Developed a benchmark to compare extremely weakly supervised text classification methods.
+
+[arxiv link](https://arxiv.org/abs/2305.12749){:target="_blank"}
