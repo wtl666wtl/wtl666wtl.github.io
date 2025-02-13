@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "A Benchmark on Extremely Weakly Supervised Text Classification: Reconcile Seed Matching and Prompting Approaches"
 date:   2023-04-20
 image: /images/2023-acl-xtc.png
 categories: wtl
