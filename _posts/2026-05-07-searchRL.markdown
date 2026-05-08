@@ -7,6 +7,7 @@ categories: wtl
 author: "Tianle Wang"
 authors: "<strong>Tianle Wang</strong>, Zhaoyang Wang, Guangchen Lan, Xinpeng Wei, Sipeng Zhang, GuanWen Qiu, Abulhair Saparov"
 venue: "Preprint"
+arxiv: https://arxiv.org/abs/2605.06638
 ---
 
 Create a synthetic logical reasoning environment to study RL scaling and downstream transfer under long-horizon reasoning.
