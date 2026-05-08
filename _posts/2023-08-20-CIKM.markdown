@@ -13,5 +13,3 @@ slides: /pdfs/2023-cikm-slides.pdf
 ---
 
 Propose a novel framework WOT-Class in weakly supervised open-world text classification.
-
-[arxiv link](https://arxiv.org/abs/2305.12401){:target="_blank"}

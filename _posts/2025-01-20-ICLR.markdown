@@ -7,8 +7,7 @@ categories: wtl
 author: "Tianle Wang"
 authors: "Yiyang Zhou*, Zhaoyang Wang*, <strong>Tianle Wang*</strong>, Shangyu Xing, Peng Xia, Bo Li, Kaiyuan Zheng, Zijian Zhang, Zhaorun Chen, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Weitong Zhang, Ying Wei, Mohit Bansal, Huaxiu Yao"
 venue: "The Thirteenth International Conference on Learning Representations"
+arxiv: https://arxiv.org/abs/2504.19276
 ---
 
 Build a framework to synthesize high-quality data for preference training.
-
-[openreview link](https://openreview.net/pdf?id=WpZyPk79Fu){:target="_blank"}

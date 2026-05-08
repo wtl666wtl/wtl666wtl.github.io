@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key"
+date:   2026-05-07
+image: /images/searchRL_newnew.jpg
+categories: wtl
+author: "Tianle Wang"
+authors: "<strong>Tianle Wang</strong>, Zhaoyang Wang, Guangchen Lan, Xinpeng Wei, Sipeng Zhang, GuanWen Qiu, Abulhair Saparov"
+venue: "Preprint"
+---
+
+Create a synthetic logical reasoning environment to study RL scaling and downstream transfer under long-horizon reasoning.

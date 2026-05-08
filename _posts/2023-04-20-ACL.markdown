@@ -12,5 +12,3 @@ code: https://github.com/ZihanWangKi/x-TC
 ---
 
 Developed a benchmark to compare extremely weakly supervised text classification methods.
-
-[arxiv link](https://arxiv.org/abs/2305.12749){:target="_blank"}
