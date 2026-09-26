@@ -1,0 +1,7 @@
+- name: ScaleLogic
+  year: 2026
+  description: "How deep can LLMs learn to reason? Explore how logical expressiveness shapes reinforcement learning, through interactive proofs and experimental results."
+  url: /projects/scalelogic/
+  demo: /projects/scalelogic/#proof-explorer
+  image: /projects/scalelogic/assets/overview.png
+  image_alt: "ScaleLogic proof trees, from implication-only reasoning to more expressive logic."

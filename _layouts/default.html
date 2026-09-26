@@ -1,140 +1,120 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Google tag (gtag.js) -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.name }} · LLM Reasoning &amp; Reinforcement Learning</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="author" content="{{ site.name }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.name }} · Purdue University">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/images/naiwa-laugh-v2.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+  {% if jekyll.environment == 'production' %}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-E00L9PT3V9');
   </script>
-  <title>{{ site.name }}</title>
-
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
-  <meta name="author" content="{{ site.name }}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
-  <style>
-    .cool-chinese {
-      font-family: 'Zhi Mang Xing', 'STXingkai', '华文行楷', 'XingKai SC', 'KaiTi', '楷体', serif;
-    }
-  </style>
-
+  {% endif %}
 </head>
-
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
-                Tianle Wang <span class="cool-chinese">王天乐</span>
-              </h1>
-              <p>I am currently a Ph.D. student at <a href="https://purdue.edu/" target="_blank">Purdue University</a>, and I am fortunate to be advised by <a href="https://asaparov.org/" target="_blank">Prof. Abulhair Saparov</a>.
-    Previously, I completed my M.S. at 
-    <a href="https://ucsd.edu/" target="_blank">UC San Diego</a> under the supervision of 
-    <a href="https://shangjingbo1226.github.io/" target="_blank">Prof. Jingbo Shang</a>.
-    Prior to that, I obtained my B.E. from 
-    <a href="http://en.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a> 
-    in the 
-    <a href="https://acm.sjtu.edu.cn/home" target="_blank">ACM Honors Class</a>.
-              </p>
-              <p>Please check my <a href="pdfs/CV.pdf" target="_blank">Curriculum Vitae</a> for more information.
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:wtl233wtl@gmail.com">Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/wtl666wtl">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=aWE2E5IAAAAJ">Google Scholar</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:30%;max-width:30%">
-              <img style="width:80%; max-width:80%; border-radius: 50%; display: block; margin: auto;" 
-     alt="profile photo" src="images/jjz.jpg">
-            </td>
-          </tr>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p>
-                I'm interested in LLM reasoning and planning, especially exploring how to use reinforcement learning in the post-training stage to improve the model's capability.
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'wtl' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <nav aria-label="Main navigation">
+        <span class="nav-indicator" aria-hidden="true"></span>
+        <a href="#about" aria-current="location">About</a>
+        <a href="#publications">Publications</a>
+        <span class="nav-group-divider" aria-hidden="true"></span>
+        <a class="nav-destination" href="{{ site.baseurl }}/projects/">Projects <svg aria-hidden="true" width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M4 4H12V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="nav-cv nav-destination" href="{{ site.baseurl }}/pdfs/cv.pdf">CV <svg aria-hidden="true" width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M4 4H12V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="profile" id="about" aria-labelledby="name">
+        <div class="profile-copy">
+          <h1 id="name">Tianle Wang <span class="chinese-name" lang="zh">王天乐</span></h1>
+          <p class="bio">I am a Ph.D. student at <a href="https://purdue.edu/">Purdue University</a>, advised by <a href="https://asaparov.org/">Prof. Abulhair Saparov</a>. Previously, I received my M.S. from <a href="https://ucsd.edu/">UC San Diego</a>, advised by <a href="https://shangjingbo1226.github.io/">Prof. Jingbo Shang</a>, and my B.E. from <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, where I was part of the <a href="https://acm.sjtu.edu.cn/home">ACM Honors Class</a>.</p>
+          <p class="bio">My research focuses on reasoning and planning in large language models. In particular, I explore how reinforcement learning during post-training can improve the reasoning capabilities of foundation models.</p>
+          <div class="contact-links" aria-label="Contact and profiles">
+            <a href="mailto:wtl233wtl@gmail.com"><svg class="contact-icon" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16a2 2 0 0 1 1.8 1.1L12 12.5 2.2 5.1A2 2 0 0 1 4 4Zm-2 3.3 9.4 7.1a1 1 0 0 0 1.2 0L22 7.3V18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2Z"/></svg><span>Email</span></a>
+            <a href="https://scholar.google.com/citations?user=aWE2E5IAAAAJ"><svg class="contact-icon" aria-hidden="true" focusable="false" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg><span>Google Scholar</span></a>
+            <a href="https://github.com/wtl666wtl"><svg class="contact-icon" aria-hidden="true" focusable="false" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><span>GitHub</span></a>
+            <a href="https://www.linkedin.com/in/tianle-wang-18b152225/"><svg class="contact-icon" aria-hidden="true" focusable="false" width="16" height="16" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg><span>LinkedIn</span></a>
+          </div>
+        </div>
+        <figure class="portrait">
+          <img src="{{ site.baseurl }}/images/jjz.jpg" alt="Portrait of Tianle Wang" width="220" height="260" fetchpriority="high">
+        </figure>
+      </section>
+      <section class="publications" id="publications" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Selected Publications</h2>
+        {% assign publications = site.publications | sort: 'date' | reverse %}
+        {% for post in publications %}
+        <article class="publication" aria-labelledby="paper-{{ forloop.index }}">
+          <a class="paper-image" href="{{ post.arxiv }}" aria-label="Read {{ post.title | escape }}">
+            <img src="{{ site.baseurl }}/tn{{ post.image }}" alt="{{ post.title | escape }} — method overview" loading="lazy" decoding="async" width="220" height="150">
+          </a>
+          <div class="paper-content">
+            <div class="paper-meta"><span class="venue">{{ post.venue_short | default: post.venue }} {{ post.date | date: '%Y' }}</span></div>
+            <h3 id="paper-{{ forloop.index }}"><a href="{{ post.arxiv }}">{{ post.title }}</a></h3>
+            <p class="authors">{{ post.authors }}</p>
+            <p class="paper-summary">{{ post.summary }}</p>
+            <div class="paper-links" aria-label="Resources for {{ post.title | escape }}">
+              {% if post.arxiv %}<a href="{{ post.arxiv }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+              {% if post.code %}<a href="{{ post.code }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+              {% if post.website %}<a class="project-page-link" href="{{ post.website | relative_url }}">Project page <span aria-hidden="true">↗</span></a>{% endif %}
+              {% if post.video %}<a href="{{ post.video }}">Video <span aria-hidden="true">↗</span></a>{% endif %}
+              {% if post.poster %}<a href="{{ post.poster | relative_url }}">Poster <span aria-hidden="true">↗</span></a>{% endif %}
+              {% if post.slides %}<a href="{{ post.slides | relative_url }}">Slides <span aria-hidden="true">↗</span></a>{% endif %}
+              {% if post.youtube %}<a href="{{ post.youtube }}">YouTube <span aria-hidden="true">↗</span></a>{% endif %}
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+        <p class="contribution-note">* Equal contribution</p>
+      </section>
+    </main>
+  </div>
+  <script>
+    (() => {
+      const nav = document.querySelector('.site-header nav');
+      const links = [...nav.querySelectorAll('a[href^="#"]')];
+      const sections = links.map(link => document.querySelector(link.hash));
+      const indicator = nav.querySelector('.nav-indicator');
+      let queued = false;
+      const update = () => {
+        queued = false;
+        let current = 0;
+        sections.forEach((section, index) => {
+          if (section.getBoundingClientRect().top <= 132) current = index;
+        });
+        links.forEach((link, index) => {
+          if (index === current) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        });
+        indicator.style.width = `${links[current].offsetWidth}px`;
+        indicator.style.transform = `translateX(${links[current].offsetLeft}px)`;
+        nav.dataset.enhanced = 'true';
+      };
+      const schedule = () => {
+        if (!queued) { queued = true; requestAnimationFrame(update); }
+      };
+      window.addEventListener('scroll', schedule, {passive: true});
+      window.addEventListener('resize', schedule);
+      window.addEventListener('hashchange', schedule);
+      update();
+      if (document.fonts) document.fonts.ready.then(schedule);
+    })();
+  </script>
 </body>
-
 </html>
-

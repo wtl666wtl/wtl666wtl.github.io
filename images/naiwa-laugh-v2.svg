@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1254 1254" fill="none">
+  <title>Naiwa — holding its belly in laughter</title>
+  <desc>Flat vector interpretation of the generated Naiwa concept: a yellow dinosaur leaning forward, closed laughing eyes and both charcoal hands cupped together over a cream belly.</desc>
+  <!-- Manually fitted cubic Bezier contours. All artwork is vector, with five solid colors. -->
+  <!-- Continuous outer silhouette, including head, belly, arms and feet. -->
+  <path fill="#FFD02F" d="M337 459C298 414 261 378 253 321C240 244 282 182 354 149C443 108 537 145 620 205C766 252 855 339 927 458C981 548 1015 642 1018 716C1022 801 990 860 938 911C935 955 930 993 920 1024C941 1048 958 1076 953 1098C948 1119 920 1122 855 1123C808 1125 756 1124 742 1116C721 1105 732 1079 746 1062C729 1042 714 1015 707 989C671 992 638 991 605 989C578 1008 559 1032 553 1052C565 1083 561 1099 541 1106C518 1115 393 1122 346 1114C309 1108 321 1073 344 1054C355 1045 367 1039 376 1036C360 991 372 941 399 901C370 864 350 829 344 792C284 765 258 719 256 665C253 600 292 530 337 459Z"/>
+  <!-- Belly follows the source's tilted, soft oval rather than a generic circle. -->
+  <path fill="#FFF0C5" d="M360 653C390 579 464 538 542 539C628 537 697 574 752 623C797 665 817 725 814 790C810 869 752 924 674 952C589 981 513 967 449 930C404 905 375 856 365 812C350 761 345 700 360 653Z"/>
+  <!-- Economical arm folds keep the bent-elbow pose legible. -->
+  <path fill="#EBAE19" d="M335 631L395 537L360 653Z"/>
+  <path fill="#EBAE19" d="M728 605C714 564 713 517 719 479L757 589Z"/>
+  <!-- Left forearm wraps toward the middle of the belly. -->
+  <path fill="#FFD02F" d="M292 589C294 607 321 619 340 634C365 655 390 678 403 705L380 799C323 801 283 762 265 714C252 677 259 627 292 589Z"/>
+  <!-- The dark mitten silhouettes preserve the original pet's hands. -->
+  <path fill="#42403A" d="M401 705C420 698 449 698 459 708C468 718 456 730 447 735C465 741 482 749 496 757C510 746 533 736 550 729C530 724 527 713 536 703C548 688 591 693 621 704L661 779C638 802 609 819 579 827C554 834 529 833 520 825C516 822 518 818 511 820C504 817 502 812 500 807C493 825 478 834 458 835C434 836 408 825 389 810C364 791 359 773 368 746C374 726 387 712 401 705Z"/>
+  <!-- Tiny negative space at the joined hands is part of the gesture. -->
+  <path fill="#FFF0C5" d="M493 791L503 785L499 798Z"/>
+  <!-- Right forearm overlaps the hand and the belly, as in the generated concept. -->
+  <path fill="#EBAE19" d="M897 605C901 662 868 724 813 759L805 732Z"/>
+  <path fill="#FFD02F" d="M757 588C708 610 649 651 615 701C606 731 617 767 650 789C702 789 760 767 809 742C860 714 891 665 897 605C861 581 803 572 757 588Z"/>
+  <!-- Small head, tilted closed eyes, and one large open laugh. -->
+  <g fill="#292D30">
+    <path d="M259 345C261 314 296 311 318 346C293 336 275 337 259 345Z"/>
+    <path d="M383 317C373 299 398 259 426 255C440 251 452 256 459 269C431 273 403 295 383 317Z"/>
+    <path d="M322 383C368 369 408 348 450 324C461 318 466 320 470 333C483 376 486 423 466 455C448 485 417 487 388 471C358 455 331 422 320 395C317 389 318 385 322 383Z"/>
+  </g>
+  <path fill="#FFF0C5" d="M333 389C371 377 406 359 438 343C445 356 440 365 429 374C410 387 379 400 358 404C347 407 339 402 333 389Z"/>
+</svg>

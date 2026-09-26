@@ -1,0 +1,229 @@
+---
+layout: null
+title: "ScaleLogic — How Deep Can LLMs Learn to Reason?"
+permalink: /projects/scalelogic/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScaleLogic · How Deep Can LLMs Learn to Reason?</title>
+  <meta name="description" content="ScaleLogic: a controlled logical reasoning environment for studying RL scaling, reasoning depth, and transfer to mathematics and general reasoning.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="How Deep Can LLMs Learn to Reason? Expressiveness Is Key">
+  <meta property="og:description" content="A controlled study of how logical expressiveness shapes RL training cost and downstream reasoning transfer.">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/projects/scalelogic/assets/overview.png">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/projects/scalelogic/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/projects/scalelogic/">
+  <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/images/naiwa-laugh-v2.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/projects/scalelogic/project.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/projects/scalelogic/proof-explorer.css">
+  <script src="{{ site.baseurl }}/projects/scalelogic/assets/proof-examples.js" defer></script>
+  <script src="{{ site.baseurl }}/projects/scalelogic/proof-explorer.js" defer></script>
+  <script src="{{ site.baseurl }}/projects/scalelogic/project.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="project-header">
+    <nav class="nav-inner" aria-label="Project navigation">
+      <a class="wordmark" href="#top">ScaleLogic<span aria-hidden="true">.</span></a>
+      <div class="section-links">
+        <a href="#demo">Demo</a><a href="#scaling">Scaling</a><a href="#transfer">Transfer</a><a href="#citation">Citation</a>
+      </div>
+      <a class="home-link" href="{{ site.baseurl }}/">Tianle Wang <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="paper-title">
+      <p class="paper-status">Preprint · 2026</p>
+      <h1 id="paper-title">How Deep Can LLMs<br class="desktop-break"> Learn to Reason?<br><span>Expressiveness Is Key</span></h1>
+      <div class="authors" aria-label="Authors">
+        <div class="author-row">
+        <span><a href="{{ site.baseurl }}/">Tianle Wang</a><sup>1</sup></span>
+        <span>Zhaoyang Wang<sup>2</sup></span>
+        <span>Guangchen Lan<sup>1</sup></span>
+        <span>Xinpeng Wei<sup>3</sup></span>
+        </div>
+        <div class="author-row">
+        <span>Sipeng Zhang<sup>4</sup></span>
+        <span>Guanwen Qiu<sup>1</sup></span>
+        <span>Abulhair Saparov<sup>1</sup></span>
+        </div>
+      </div>
+      <p class="affiliations"><span><sup>1</sup>Purdue University</span><span><sup>2</sup>UNC Chapel Hill</span><span><sup>3</sup>Georgia Tech</span><span><sup>4</sup>UC San Diego</span></p>
+      <div class="resource-links">
+        <a class="resource" href="https://arxiv.org/abs/2605.06638"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2.5h7l3 3V17H5zM12 2.5V6h3M8 9h4M8 12h4"/></svg>Paper</a>
+        <a class="resource" href="https://github.com/wtl666wtl/ScaleLogic"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 5l-4 5 4 5M14 5l4 5-4 5M12 3L8 17"/></svg>Code</a>
+        <a class="resource secondary" href="#citation"><span aria-hidden="true">{ }</span>BibTeX</a>
+      </div>
+      <p class="hero-summary">What a model learns from matters.<br>Controlling logical expressiveness reveals how RL scales and how reasoning transfers.</p>
+      <figure class="overview">
+        <a class="figure-link" href="assets/overview.png" data-lightbox data-caption="ScaleLogic constructs candidate proof trees with exactly one provable conclusion. Depth and logical expressiveness can be controlled independently." aria-label="Enlarge ScaleLogic framework overview">
+          <img src="assets/overview.png" alt="ScaleLogic proof trees: implication-only reasoning on the left and reasoning with conjunction, negation, disjunction, and universal quantification on the right." width="8008" height="2616" fetchpriority="high">
+          <span class="enlarge-hint" aria-hidden="true">View full size ↗</span>
+        </a>
+        <figcaption>One framework, two independent axes: <strong>how deep the proof is</strong> and <strong>how expressive the logic is</strong>. Each problem has exactly one provable candidate conclusion.</figcaption>
+      </figure>
+    </section>
+
+    <section class="abstract-section" aria-labelledby="abstract-title">
+      <div class="reading-width">
+        <h2 id="abstract-title">Abstract</h2>
+        <p>How deep can reinforcement learning teach a language model to reason? <strong>ScaleLogic</strong> is a synthetic logical reasoning framework with independent control over proof depth and the expressiveness of the underlying formal system, from simple “if–then” chains to reasoning with conjunction, negation, disjunction, and universal quantification.</p>
+        <p>In the studied regime, the RL training steps needed to reach a target accuracy follow a power law in reasoning depth. More expressive logic produces steeper scaling, but also stronger transfer to mathematics and general reasoning benchmarks. The most expressive setting improves mean downstream Avg@8 by <strong>10.66 percentage points</strong>. The scaling pattern persists across multiple RL algorithms, model sizes, and the additional model family tested, while curriculum training improves efficiency. These results suggest that better training methods and data can extend the reasoning horizon.</p>
+      </div>
+    </section>
+
+    <section class="content-section container" id="demo" aria-labelledby="framework-title">
+      <div class="reading-width">
+        <h2 id="framework-title">A controlled environment for reasoning</h2>
+        <p>ScaleLogic builds proof trees backward from candidate conclusions. Natural-language templates turn the resulting facts and rules into a multiple-choice problem with an exactly verifiable answer.</p>
+        <p>Increasing <strong>depth</strong> lengthens the required proof. Increasing <strong>expressiveness</strong> expands the set of inference rules available to construct proofs, with each rule associated with a logical operator. This separates two sources of difficulty that are often entangled in natural reasoning tasks.</p>
+      </div>
+      <div class="proof-explorer" id="proof-explorer">
+        <div class="explorer-heading"><h3>Follow the proof.</h3><p id="proof-description">Explore a complete derivation, from given facts to a provable conclusion.</p></div>
+        <div class="logic-controls" role="group" aria-label="Logical expressiveness">
+          <button type="button" data-logic="0" aria-pressed="false"><span aria-hidden="true">→</span>Implication</button>
+          <button type="button" data-logic="1" aria-pressed="false"><span aria-hidden="true">∧</span>+ Conjunction</button>
+          <button type="button" data-logic="2" aria-pressed="false"><span aria-hidden="true">¬</span>+ Negation</button>
+          <button type="button" data-logic="3" aria-pressed="false"><span aria-hidden="true">∨</span>+ Disjunction</button>
+          <button type="button" data-logic="4" aria-pressed="true"><span aria-hidden="true">∀</span>+ Quantification</button>
+        </div>
+        <div class="proof-toolbar">
+          <div class="depth-controls" role="group" aria-label="Proof-tree depth"><span>Depth</span><button type="button" data-depth="3" aria-pressed="true">3</button><button type="button" data-depth="5" aria-pressed="false">5</button><button type="button" data-depth="7" aria-pressed="false">7</button></div>
+          <button type="button" class="proof-button" id="proof-new"><span aria-hidden="true">↻</span> New example</button>
+        </div>
+        <div class="proof-workspace">
+          <div class="proof-question">
+            <div class="proof-panel-heading"><h4>The problem</h4><span id="proof-meta"></span></div>
+            <div class="proof-target"><span>Prove that</span><strong id="proof-goal"></strong></div>
+            <div class="proof-premises" id="proof-premises" role="region" aria-label="Given facts and rules" tabindex="0"></div>
+          </div>
+          <div class="proof-visual">
+            <div class="proof-panel-heading"><h4>Derivation</h4><div class="proof-legend" aria-hidden="true"><span><i></i>Known</span><span><i class="pending"></i>To derive</span></div><button type="button" class="proof-button quiet" id="proof-fit" aria-pressed="false">Fit graph</button></div>
+            <div class="proof-canvas" id="proof-canvas" role="region" aria-label="Scrollable proof graph" tabindex="0"><svg id="proof-graph" xmlns="http://www.w3.org/2000/svg" role="group" aria-labelledby="proof-graph-title"></svg></div>
+            <p class="proof-symbol-key" id="proof-symbol-key"></p>
+          </div>
+        </div>
+        <div class="proof-playback">
+          <div class="proof-playback-top"><span class="proof-step-label" id="proof-step-label"></span><div class="proof-actions"><button type="button" class="proof-button" id="proof-back" aria-label="Previous proof step">← Back</button><button type="button" class="proof-button primary" id="proof-play" aria-pressed="false">Play proof</button><button type="button" class="proof-button" id="proof-next" aria-label="Next proof step">Next →</button><button type="button" class="proof-button quiet" id="proof-all">Show all</button></div></div>
+          <input type="range" min="0" max="1" value="0" step="1" class="proof-progress" id="proof-progress" aria-label="Proof step">
+          <div class="proof-explanation" role="status" aria-live="polite" aria-atomic="true"><strong id="proof-operation"></strong><p id="proof-explanation"></p></div>
+        </div>
+        <p class="proof-footnote">Real examples from the ScaleLogic generator, shown as a single complete proof. Each setting includes the preceding operators. Depth refers to the generated proof tree; playback separates inference operations. <a href="https://github.com/wtl666wtl/ScaleLogic">Explore the code ↗</a></p>
+        <noscript><p class="proof-footnote">Enable JavaScript to explore the interactive proofs. The framework and results remain available below.</p></noscript>
+      </div>
+    </section>
+
+    <section class="content-section container" id="scaling" aria-labelledby="scaling-title">
+      <div class="reading-width">
+        <h2 id="scaling-title">More expressive logic. Steeper scaling.</h2>
+        <p>For non-thinking Qwen3-4B trained with DAPO, the training steps <em>T</em> needed to reach 90% held-out Pass@1 follow a power law in proof depth <em>D</em> across all five settings. The fitted exponent rises from <strong>1.05</strong> for implication-only reasoning to <strong>2.60</strong> with quantification.</p>
+        <div class="equation">
+          <span role="math" aria-label="T is proportional to D to the power gamma">T ∝ D<sup>γ</sup></span>
+          <dl class="equation-key">
+            <div><dt>T</dt><dd>Training steps to reach <br>90% held-out Pass@1</dd></div>
+            <div><dt>D</dt><dd>Proof-tree depth</dd></div>
+            <div><dt>γ</dt><dd>Scaling exponent fitted <br>for each logic setting</dd></div>
+          </dl>
+        </div>
+        <p>Doubling the depth corresponds to roughly twice the training cost in the simplest setting, versus about six times in the most expressive setting. These are empirical fits over the tested depth ranges, with <em>R</em><sup>2</sup> &gt; 0.99.</p>
+      </div>
+      <div class="figure-pair">
+        <figure><a class="figure-link" href="assets/fig_scaling_loglog.png" data-lightbox data-caption="Training steps to reach 90% held-out Pass@1 versus proof depth. Points are measurements; lines are power-law fits." aria-label="Enlarge training scaling plot"><img src="assets/fig_scaling_loglog.png" alt="Log-log plot of training steps against reasoning depth for five logical expressiveness settings." loading="lazy" width="2295" height="1698"></a><figcaption>Power-law fits across the five logic settings.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/fig_gamma_bar.png" data-lightbox data-caption="Scaling exponents rise with logical expressiveness. Error bars show one standard error." aria-label="Enlarge scaling exponent plot"><img src="assets/fig_gamma_bar.png" alt="Fitted scaling exponents increase from 1.05 for implication-only to 2.60 for quantification." loading="lazy" width="2298" height="1697"></a><figcaption>Expressiveness governs the fitted scaling exponent.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="content-section container" id="transfer" aria-labelledby="transfer-title">
+      <div class="reading-width">
+        <h2 id="transfer-title">Harder to learn. More useful to transfer.</h2>
+        <p>Synthetic logic training improves performance beyond the training domain. Across eight mathematics and general reasoning benchmarks, the most expressive setting lifts mean Avg@8 from <strong>49.39%</strong> to <strong>60.05%</strong> at 414 RL steps—a gain of <strong>10.66 percentage points</strong>.</p>
+        <p>Simpler settings plateau earlier. More expressive settings also yield larger gains at checkpoints matched to approximately 100 training steps, suggesting that the benefit comes from the structure of the training problems as well as the amount of training.</p>
+      </div>
+      <div class="figure-pair">
+        <figure><a class="figure-link" href="assets/fig_downstream_a.png" data-lightbox data-caption="Mean Avg@8 across eight downstream benchmarks versus RL training steps. The base model scores 49.39%; the most expressive setting reaches 60.05%." aria-label="Enlarge downstream transfer plot"><img src="assets/fig_downstream_a.png" alt="Downstream accuracy rises throughout training for more expressive settings, while simpler settings plateau." loading="lazy" width="2298" height="1697"></a><figcaption>More expressive training sustains downstream gains.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/fig_downstream_b_matched.png" data-lightbox data-caption="Transfer gains at matched depth and matched training steps. Matched depth uses D=12, except implication-only uses D=16; matched training steps uses the checkpoint closest to 100 steps." aria-label="Enlarge controlled transfer comparisons"><img src="assets/fig_downstream_b_matched.png" alt="Downstream gains increase with expressiveness at matched depth and matched training steps." loading="lazy" width="2298" height="1697"></a><figcaption>The trend persists at matched depth or training steps.<sup>†</sup></figcaption></figure>
+      </div>
+      <p class="figure-note"><sup>†</sup> Matched depth: D = 12, except implication-only uses D = 16 because smaller depths are near saturation. Matched training steps: the checkpoint closest to 100 steps. Downstream scores report mean Avg@8 across eight benchmarks.</p>
+    </section>
+
+    <section class="content-section container" id="curriculum" aria-labelledby="curriculum-title">
+      <div class="reading-width">
+        <h2 id="curriculum-title">The training recipe matters, too.</h2>
+        <p>Under conjunction, a curriculum that gradually increases depth lowers the scaling exponent to <strong>1.33</strong>, compared with <strong>1.70</strong> for uniform sampling and <strong>2.36</strong> for difficult-only training. DAPO, GRPO, and GSPO all exhibit power-law scaling in this setting, with different levels of efficiency.</p>
+      </div>
+      <div class="figure-pair">
+        <figure><a class="figure-link" href="assets/fig_distribution.png" data-lightbox data-caption="Curriculum, uniform, and difficult-only training under conjunction. Each curve aggregates three seeds; shading denotes one standard deviation in log-space." aria-label="Enlarge curriculum comparison"><img src="assets/fig_distribution.png" alt="Curriculum training has a lower scaling exponent than uniform and difficult-only training." loading="lazy" width="2298" height="1698"></a><figcaption>A curriculum makes deeper tasks more efficient to learn.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/fig_algorithm.png" data-lightbox data-caption="DAPO, GRPO, and GSPO under conjunction. All three follow power-law scaling over the measured range." aria-label="Enlarge RL algorithm comparison"><img src="assets/fig_algorithm.png" alt="Power-law scaling curves for DAPO, GRPO, and GSPO." loading="lazy" width="2298" height="1698"></a><figcaption>The scaling pattern holds across three RL algorithms.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="content-section container" id="generalization" aria-labelledby="generalization-title">
+      <div class="reading-width"><h2 id="generalization-title">A longer horizon, with limits.</h2><p>Training on deeper proofs extends the range of unseen depths that a model can solve. It does not remove the horizon limit: in the quantification setting, models trained at depths 12 and 14 approach chance accuracy around three times their training depth, even with a 32,768-token output budget.</p></div>
+      <div class="figure-pair">
+        <figure><a class="figure-link" href="assets/fig_ood_absolute.png" data-lightbox data-caption="Evaluation on unseen depths under quantification. Deeper training extends the solvable range." aria-label="Enlarge unseen-depth results"><img src="assets/fig_ood_absolute.png" alt="Accuracy at unseen test depths for models trained at different proof depths." loading="lazy" width="2448" height="1698"></a><figcaption>Deeper training extends the effective reasoning horizon.</figcaption></figure>
+        <figure><a class="figure-link" href="assets/fig_ratio_collapse.png" data-lightbox data-caption="Test depth normalized by training depth. The deepest-trained models approach chance near a ratio of three." aria-label="Enlarge normalized depth results"><img src="assets/fig_ratio_collapse.png" alt="Accuracy versus the ratio of test depth to training depth, showing bounded generalization." loading="lazy" width="2446" height="1698"></a><figcaption>Generalization remains bounded beyond the training range.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="content-section container" id="frontier" aria-labelledby="frontier-title">
+      <div class="reading-width">
+        <h2 id="frontier-title">Challenging even for frontier models.</h2>
+        <p>How difficult are these synthetic tasks? In the quantification setting, we evaluate six models on 30 held-out problems per depth, each with four candidate answers. <strong>All six evaluated models lose accuracy as reasoning depth increases</strong>, including models with explicit reasoning capabilities.</p>
+        <p>Qwen3.5-397B-A17B falls from <strong>30/30 correct at depth 12</strong> to <strong>9/30 at depth 32</strong>. GPT-5.4-mini with high reasoning effort reaches 7/30 at depth 20. The increasing depth exposes a substantial reasoning challenge in this evaluation, even with a maximum response length of 65,536 tokens.</p>
+      </div>
+      <figure class="frontier-figure">
+        <a class="figure-link" href="assets/fig_strong_llm.png" data-lightbox data-caption="Frontier-model evaluation on ScaleLogic, + Quantification with four candidate answers. Each point reports correct answers out of 30 held-out problems at that depth. The dashed line is random guessing: 7.5/30, or 25%." aria-label="Enlarge frontier-model performance across reasoning depths"><img src="assets/fig_strong_llm.png" alt="Correct answers out of 30 versus reasoning depth for GPT-4o, GPT-5.4-mini (high), DeepSeek-V3.1, DeepSeek-R1, Kimi-K2.5, and Qwen3.5-397B-A17B. All six curves decline with depth; Qwen3.5 scores 9 of 30 at depth 32." width="2448" height="1698" loading="lazy"></a>
+        <figcaption>Deeper proofs challenge all six evaluated models. Dashed line: the 25% random-guessing baseline.</figcaption>
+      </figure>
+      <p class="figure-note">Zero-shot evaluation · + Quantification · 30 problems per depth · Maximum response length: 65,536 tokens. Temperature is 0 where supported; GPT-5.4-mini uses its default temperature with high reasoning effort. Results from Appendix J.</p>
+    </section>
+
+    <section class="content-section container" id="controls" aria-labelledby="controls-title">
+      <div class="reading-width">
+        <h2 id="controls-title">Correctness-guided learning drives transfer.</h2>
+        <p>Does exposure to synthetic proofs suffice? In the quantification setting at depth 8, supervised fine-tuning on gold proofs solves the in-domain task but hurts downstream performance. Format-only and random-reward RL yield no downstream gains. Among these tested alternatives, only correctness-guided RL improves transfer.</p>
+        <div class="results-table-wrap" role="region" aria-label="Alternative-training results" tabindex="0">
+          <table class="results-table">
+            <caption>Qwen3-4B · Quantification, D = 8</caption>
+            <thead><tr><th scope="col">Training method</th><th scope="col">In-domain (%)</th><th scope="col">Downstream (%)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Base model</th><td>34.35</td><td>49.39</td></tr>
+              <tr><th scope="row">SFT</th><td>97.30</td><td>24.08</td></tr>
+              <tr><th scope="row">Format-only RL</th><td>37.43</td><td>49.36</td></tr>
+              <tr><th scope="row">Random-reward RL</th><td>32.17</td><td>48.06</td></tr>
+              <tr class="ours"><th scope="row">Correctness-guided RL</th><td>90.30</td><td>55.72</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">Training budgets are matched by total training sequences (approximately 200k): two SFT epochs or 98 RL steps. Downstream scores are mean Avg@8 across eight benchmarks; in-domain scores are held-out ScaleLogic accuracy.</p>
+      </div>
+    </section>
+
+    <section class="citation-section" id="citation" aria-labelledby="citation-title">
+      <div class="reading-width">
+        <div class="citation-heading"><h2 id="citation-title">Citation</h2><button type="button" id="copy-bibtex">Copy BibTeX</button></div>
+        <pre><code id="bibtex">@article{wang2026scalelogic,
+  title = {How Deep Can LLMs Learn to Reason?
+           Expressiveness Is Key},
+  author = {Wang, Tianle and Wang, Zhaoyang and Lan, Guangchen
+            and Wei, Xinpeng and Zhang, Sipeng and Qiu, Guanwen
+            and Saparov, Abulhair},
+  journal = {arXiv preprint arXiv:2605.06638},
+  year = {2026},
+  url = {https://arxiv.org/abs/2605.06638}
+}</code></pre>
+        <p id="copy-status" role="status" class="copy-status"></p>
+      </div>
+    </section>
+  </main>
+  <footer class="container"><p>ScaleLogic · <a href="https://arxiv.org/abs/2605.06638">Paper</a> · <a href="https://github.com/wtl666wtl/ScaleLogic">Code</a></p><a href="{{ site.baseurl }}/">Back to Tianle’s homepage <span aria-hidden="true">↗</span></a></footer>
+  <dialog id="figure-dialog" aria-label="Expanded paper figure"><div class="dialog-toolbar"><span>ScaleLogic · Paper figure</span><button type="button" id="close-figure" aria-label="Close figure">Close <span aria-hidden="true">×</span></button></div><img id="expanded-figure" alt=""><p id="expanded-caption"></p></dialog>
+</body>
+</html>

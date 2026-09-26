@@ -1,0 +1,14 @@
+{
+  "examples": 150,
+  "depths": [
+    3,
+    5,
+    7
+  ],
+  "examplesPerSetting": 10,
+  "sourceHashes": {
+    "data/search_logic_graph/generator_v2.py": "c2f85dcdbb90c4f79e7f7d194b9ba7b6780e6ce08ea640b7d9c67901c56c43d8",
+    "sft/sft_solver.py": "54f67456c78e0e58e1c679f5d72a9154a4c3ed9d6f00933de75844efb50c2989"
+  },
+  "notes": "Single generated proof graphs, not four-choice benchmark items. Five-letter predicate labels follow the dataset renderer. No reuse; binary arity; refuted-sibling disjunctions. Each step independently truth-table checked. Playback splits disjunction introduction and elimination; playback steps differ from generator depth."
+}

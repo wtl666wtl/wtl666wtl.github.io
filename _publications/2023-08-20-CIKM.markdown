@@ -7,6 +7,8 @@ categories: wtl
 author: "Tianle Wang"
 authors: "<strong>Tianle Wang</strong>, Zihan Wang, Weitang Liu, Jingbo Shang"
 venue: "The Conference on Information and Knowledge Management"
+venue_short: "CIKM"
+summary: "Weakly supervised text classification in an open world, where the full set of classes is not known in advance."
 arxiv: https://arxiv.org/abs/2305.12401
 code: https://github.com/wtl666wtl/WOT-Class
 slides: /pdfs/2023-cikm-slides.pdf

@@ -1,0 +1,65 @@
+[
+  {
+    "file": "fig_scaling_loglog.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_scaling_loglog.png",
+    "sha256": "a823b3da6dc1b64ffb286d34494f83d38577f622b7e2665d528c0c0f81733f19",
+    "width": 2295,
+    "height": 1698
+  },
+  {
+    "file": "fig_gamma_bar.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_gamma_bar.png",
+    "sha256": "9ebae21a12073ea2f2a6868c41ce7861f65da6c5c430e59bc51b358c260cadbf",
+    "width": 2298,
+    "height": 1697
+  },
+  {
+    "file": "fig_downstream_a.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_downstream_a.png",
+    "sha256": "916e68d7ccf6669916274358e428030a5317cc35e0ae7a1e87043437c49c39b7",
+    "width": 2298,
+    "height": 1697
+  },
+  {
+    "file": "fig_downstream_b_matched.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_downstream_b_matched.png",
+    "sha256": "539837029efa110835a8a5d8e55cf0e9142cfcfc241f876d7bf85322918831f9",
+    "width": 2298,
+    "height": 1697
+  },
+  {
+    "file": "fig_distribution.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_distribution.png",
+    "sha256": "a53cbb0b7acd0830f078869d27534c02d67bbcd6f43cf9903d452b41b95cf71e",
+    "width": 2298,
+    "height": 1698
+  },
+  {
+    "file": "fig_algorithm.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_algorithm.png",
+    "sha256": "a466690c36665fb2167dc1a52c89dbd9eb2b72cd030de532b0371abe5b13520f",
+    "width": 2298,
+    "height": 1698
+  },
+  {
+    "file": "fig_ood_absolute.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_ood_absolute.png",
+    "sha256": "bb1bfd77f55bcc88a4b9f99baa273fc3fd41e946dd9365943deb8ec871a5b942",
+    "width": 2448,
+    "height": 1698
+  },
+  {
+    "file": "fig_ratio_collapse.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_ratio_collapse.png",
+    "sha256": "336517c45ba318478c39d4b2536391a28a89773f90bdccd20f96bdd1c8f0ac4e",
+    "width": 2446,
+    "height": 1698
+  },
+  {
+    "file": "fig_strong_llm.png",
+    "source": "C:\\Users\\wtl\\Documents\\GitHub\\searchRL\\res\\fig_strong_llm.png",
+    "sha256": "c65950d4c56cee838af247ca14ce5ad79e2df148cb5a35126716e31ffb61e58a",
+    "width": 2448,
+    "height": 1698
+  }
+]

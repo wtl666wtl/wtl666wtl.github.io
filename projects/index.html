@@ -1,0 +1,62 @@
+---
+layout: null
+title: "Projects · Tianle Wang"
+permalink: /projects/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects · {{ site.name }}</title>
+  <meta name="description" content="Research projects and interactive demos by Tianle Wang, exploring reasoning and reinforcement learning in language models.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects · {{ site.name }}">
+  <meta property="og:description" content="Explore research through interactive demos and project pages.">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/projects/">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/projects/">
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/images/naiwa-laugh-v2.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-shell projects-shell">
+    <header class="site-header">
+      <nav aria-label="Main navigation">
+        <a href="{{ site.baseurl }}/#about">About</a>
+        <a href="{{ site.baseurl }}/#publications">Publications</a>
+        <span class="nav-group-divider" aria-hidden="true"></span>
+        <a class="nav-destination" href="{{ site.baseurl }}/projects/" aria-current="page">Projects <svg aria-hidden="true" width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M4 4H12V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="nav-cv nav-destination" href="{{ site.baseurl }}/pdfs/cv.pdf">CV <svg aria-hidden="true" width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M4 4H12V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="projects-intro">
+        <a class="projects-home" href="{{ site.baseurl }}/">Tianle Wang <span aria-hidden="true">/</span></a>
+        <h1>Projects</h1>
+        <p>Explore my research through project pages and interactive demos.</p>
+      </div>
+      <div class="project-list">
+        {% for project in site.data.projects %}
+        <article class="project-card" aria-labelledby="project-{{ forloop.index }}">
+          <a class="project-card-image" href="{{ project.url | relative_url }}" aria-label="Explore {{ project.name | escape }}">
+            <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" decoding="async">
+          </a>
+          <div class="project-card-content">
+            <div class="project-card-heading"><h2 id="project-{{ forloop.index }}"><a href="{{ project.url | relative_url }}">{{ project.name }}</a></h2><span>{{ project.year }}</span></div>
+            <p>{{ project.description }}</p>
+            <div class="project-card-links">
+              <a class="project-card-primary" href="{{ project.url | relative_url }}">Explore project <span aria-hidden="true">→</span></a>
+              {% if project.demo %}<a href="{{ project.demo | relative_url }}">Try the demo <span aria-hidden="true">↗</span></a>{% endif %}
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </main>
+  </div>
+</body>
+</html>

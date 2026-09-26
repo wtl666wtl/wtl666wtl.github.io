@@ -7,6 +7,8 @@ categories: wtl
 author: "Tianle Wang"
 authors: "Zihan Wang*, <strong>Tianle Wang*</strong>, Dheeraj Mekala, Jingbo Shang"
 venue: "The 61st Annual Meeting of the Association for Computational Linguistics (Findings)"
+venue_short: "Findings of ACL"
+summary: "A benchmark comparing seed-matching and prompting approaches under extremely weak text supervision."
 arxiv: https://arxiv.org/abs/2305.12749
 code: https://github.com/ZihanWangKi/x-TC
 ---

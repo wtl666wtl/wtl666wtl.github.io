@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key"
+title:  "How Deep Can LLMs Learn to Reason? Expressiveness Is Key"
 date:   2026-05-07
 image: /images/searchRL_newnew.jpg
 categories: wtl
 author: "Tianle Wang"
 authors: "<strong>Tianle Wang</strong>, Zhaoyang Wang, Guangchen Lan, Xinpeng Wei, Sipeng Zhang, GuanWen Qiu, Abulhair Saparov"
 venue: "Preprint"
-arxiv: https://arxiv.org/abs/2605.06638
+summary: "A synthetic logical reasoning environment for studying RL scaling and transfer in long-horizon reasoning."
 code: https://github.com/wtl666wtl/ScaleLogic
+website: /projects/scalelogic/
+arxiv: https://arxiv.org/abs/2605.06638
 ---
 
 Create a synthetic logical reasoning environment to study RL scaling and downstream transfer under long-horizon reasoning.
