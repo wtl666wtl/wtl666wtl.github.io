@@ -48,7 +48,6 @@
     $('#proof-description').textContent = descriptions[level];
     $('#proof-goal').textContent = current.goal;
     $('#proof-meta').textContent = `D = ${depth} · ${current.statements.filter(s => s.kind === 'fact').length} facts · ${current.statements.filter(s => s.kind === 'rule').length} rules`;
-    $('#proof-symbol-key').textContent = `${current.nodes[0].lines[0]} means “${current.nodes[0].text}”.`;
     $('#proof-progress').max = current.steps;
     renderStatements(); renderGraph(); update(false);
     $('#proof-canvas').scrollTop = 0;
@@ -136,6 +135,8 @@
 
   function update(follow = true) {
     const focus = current.nodes.find(n => n.id === selected) || current.nodes.find(n=>n.step === step && step>0);
+    const described = focus || current.nodes[0];
+    $('#proof-symbol-key').textContent = `${described.lines.join(' ')} means “${described.text}”.`;
     const support = new Set(focus?.deps || []);
     host.querySelectorAll('[data-node]').forEach(el=>{
       const node = current.nodes.find(n=>n.id===el.dataset.node);
