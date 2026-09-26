@@ -17,7 +17,7 @@ strong { font-weight: 600; }
 .site-header { position: sticky; top: 0; z-index: 10; display: flex; justify-content: flex-end; padding: 20px 0 12px; pointer-events: none; }
 .site-header nav { position: relative; isolation: isolate; display: flex; align-items: center; gap: 4px; padding: 5px; border: 1px solid rgba(213, 225, 233, .8); border-radius: 999px; background: rgba(248, 251, 253, .88); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); box-shadow: 0 3px 6px rgba(32, 55, 75, .025), 0 10px 30px rgba(32, 55, 75, .06), inset 0 1px 0 #fff; font-size: 13px; pointer-events: auto; }
 .site-header nav a { position: relative; display: inline-flex; align-items: center; justify-content: center; min-height: 40px; padding: 8px 19px; border-radius: 999px; color: var(--muted); font-weight: 500; transition: color .2s, background-color .2s; }
-.site-header nav a:hover { color: var(--blue); background: rgba(227, 236, 243, .45); text-decoration: none; }
+.site-header nav a:hover, .site-header nav a:focus-visible { color: var(--blue); background: rgba(227, 236, 243, .45); text-decoration: none; }
 .site-header nav a[aria-current] { color: var(--blue); background: #e6eff6; }
 .site-header nav[data-enhanced] a[aria-current] { background: transparent; }
 .nav-indicator { position: absolute; z-index: -1; top: 5px; bottom: 5px; left: 0; border-radius: 999px; background: #e6eff6; box-shadow: inset 0 1px 0 rgba(255, 255, 255, .9); opacity: 0; transition: transform .3s cubic-bezier(.2,.8,.2,1), width .3s cubic-bezier(.2,.8,.2,1); }
@@ -127,17 +127,5 @@ h3 a { color: var(--ink); }
 @media(prefers-reduced-motion:reduce) {
   .project-card,.project-card-links span { transition: none; }
 }
-
-.nav-group-divider { flex: 0 0 1px; width: 1px; height: 17px; margin: 0 4px; background: #dce5ec; }
-@media(max-width:360px) { .nav-group-divider { margin: 0 2px; } }
-
-.site-header nav .nav-destination { gap: 5px; }
-.nav-destination svg { flex: 0 0 12px; }
-.site-header nav .nav-destination:hover,
-.site-header nav .nav-destination:focus-visible { color: #685080; background: #f2edf8; }
-.site-header nav .nav-destination[aria-current],
-.site-header nav .nav-destination:active { color: #63497d; background: #eae2f3; box-shadow: inset 0 1px 0 #ffffffb3, 0 2px 6px #65517a0a; }
-.site-header nav .nav-destination:focus-visible { outline-color: #9278af; }
-@media(max-width:360px) { .site-header nav a { padding-left: 6px; padding-right: 6px; } }
 
 @media(max-width:540px) { .contact-links { display: grid; grid-template-columns: max-content max-content; gap: 0 24px; justify-content: start; } }
