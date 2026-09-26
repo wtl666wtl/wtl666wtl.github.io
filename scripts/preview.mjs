@@ -26,6 +26,7 @@ function validateAssets(html, route='/') {
 }
 async function renderProject(file = 'projects/scalelogic/index.html', route = '/projects/scalelogic/') {
   const site = YAML.parse(read('_config.yml'));
+  site.time = new Date();
   site.data = {projects: YAML.parse(read('_data/projects.yml'))};
   const liquid = new Liquid();
   liquid.registerFilter('relative_url', value => /^https?:/.test(value) ? value : site.baseurl + '/' + value.replace(/^\//, ''));
@@ -36,6 +37,7 @@ async function renderProject(file = 'projects/scalelogic/index.html', route = '/
 }
 async function render() {
   const site = YAML.parse(read('_config.yml'));
+  site.time = new Date();
   site.publications = fs.readdirSync(path.join(root, '_publications')).filter(f => f.endsWith('.markdown')).map(f => frontmatter(read('_publications/' + f)));
   const liquid = new Liquid();
   liquid.registerFilter('relative_url', value => /^https?:/.test(value) ? value : site.baseurl + '/' + value.replace(/^\//, ''));
