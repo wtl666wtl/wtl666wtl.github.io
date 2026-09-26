@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AnyPrefer: An Automatic Framework for Preference Data Synthesis"
+title:  "Anyprefer: An Agentic Framework for Preference Data Synthesis"
 date:   2025-01-20
 image: /images/2025-iclr-anyprefer.png
 categories: wtl
