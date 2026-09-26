@@ -37,6 +37,7 @@
     scheduled = false;
     let current = -1;
     sections.forEach((section, index) => { if (section.getBoundingClientRect().top <= 140) current = index; });
+    if (window.scrollY > 0 && window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 3) current = sections.length - 1;
     navigation.forEach((link, index) => {
       if (index === current) link.setAttribute('aria-current', 'location');
       else link.removeAttribute('aria-current');
