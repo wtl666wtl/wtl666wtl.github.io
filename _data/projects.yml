@@ -5,3 +5,11 @@
   demo: /projects/scalelogic/#proof-explorer
   image: /tn/images/searchRL_newnew.jpg
   image_alt: "ScaleLogic’s most expressive logic: a proof with conjunction, negation, disjunction, and universal quantification."
+- name: Before Dawn
+  year: 2026
+  description: "A pixel-art, turn-based roguelike I made in five days with AI coding assistants. Every skill costs beats on a shared timeline: read enemy intents, break their poise, and lead four heroes through three regions before dawn."
+  url: /projects/before-dawn/
+  demo: /projects/before-dawn/play/
+  demo_label: "Play in browser"
+  image: /tn/images/before-dawn.png
+  image_alt: "Title screen of Before Dawn: a wolf howls at a full moon above a dark forest."

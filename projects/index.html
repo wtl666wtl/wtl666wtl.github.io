@@ -49,7 +49,7 @@ permalink: /projects/
             <p>{{ project.description }}</p>
             <div class="project-card-links">
               <a class="project-card-primary" href="{{ project.url | relative_url }}">Explore project <span aria-hidden="true">→</span></a>
-              {% if project.demo %}<a href="{{ project.demo | relative_url }}">Try the demo <span aria-hidden="true">↗</span></a>{% endif %}
+              {% if project.demo %}<a href="{{ project.demo | relative_url }}">{{ project.demo_label | default: "Try the demo" }} <span aria-hidden="true">↗</span></a>{% endif %}
             </div>
           </div>
         </article>

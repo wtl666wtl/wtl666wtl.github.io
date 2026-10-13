@@ -1,0 +1,120 @@
+---
+layout: null
+title: "Before Dawn — A Pixel-Art, Turn-Based Roguelike"
+permalink: /projects/before-dawn/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Before Dawn · {{ site.name }}</title>
+  <meta name="description" content="Before Dawn: a pixel-art, turn-based roguelike where every skill costs beats on a shared timeline. Play it in your browser.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Before Dawn — A Pixel-Art, Turn-Based Roguelike">
+  <meta property="og:description" content="Lead four heroes through three regions and defeat the Dayless before dawn. Play it in your browser.">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/projects/before-dawn/assets/title.png">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/projects/before-dawn/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/projects/before-dawn/">
+  <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/images/naiwa-laugh-v2.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/projects/before-dawn/project.css?v={{ site.time | date: '%s' }}">
+  {% if jekyll.environment == 'production' %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E00L9PT3V9');
+  </script>
+  {% endif %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="project-header">
+    <nav class="nav-inner" aria-label="Project navigation">
+      <a class="wordmark" href="#top">Before Dawn<span aria-hidden="true">.</span></a>
+      <div class="section-links">
+        <a href="#idea">Idea</a><a href="#gameplay">Gameplay</a><a href="#behind">Behind the game</a><a href="#controls">Controls</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="game-title">
+      <p class="paper-status">Game · 2026 · v0.1</p>
+      <h1 id="game-title">Before Dawn<br><span>A pixel-art, turn-based roguelike</span></h1>
+      <div class="authors" aria-label="Author"><a href="{{ site.baseurl }}/">Tianle Wang</a></div>
+      <div class="resource-links">
+        <a class="resource play" href="{{ site.baseurl }}/projects/before-dawn/play/"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4l10 6-10 6z"/></svg>Play in browser</a>
+        <a class="resource secondary" href="#controls">Controls</a>
+      </div>
+      <p class="hero-summary">Lead four heroes through three regions and defeat the Dayless before dawn.<br>Every skill costs beats on a shared timeline, so time itself is part of the strategy.</p>
+      <figure class="overview">
+        <a class="figure-link" href="{{ site.baseurl }}/projects/before-dawn/play/" aria-label="Play Before Dawn in your browser">
+          <img src="{{ site.baseurl }}/projects/before-dawn/assets/title.png" alt="Title screen of Before Dawn: a wolf howls at a full moon above a dark forest." width="1280" height="720" fetchpriority="high">
+        </a>
+        <figcaption>Playable in English and Chinese, right in a desktop browser.</figcaption>
+      </figure>
+    </section>
+
+    <section class="abstract-section" id="idea" aria-labelledby="idea-title">
+      <div class="reading-width">
+        <h2 id="idea-title">The idea</h2>
+        <p>I have always loved <strong>Slay the Spire</strong> and <strong>Darkest Dungeon</strong>. Slay the Spire keeps reshaping your build over a run; Darkest Dungeon is about a party of heroes working together on a long, dangerous expedition. Before Dawn is my attempt to combine the two: a party whose skills keep evolving, on a journey full of random events and hard fights.</p>
+        <p>It is meant to be difficult. When a run fails, I want you to see exactly which choice cost you, and want to try again.</p>
+      </div>
+    </section>
+
+    <section class="content-section container" id="gameplay" aria-labelledby="gameplay-title">
+      <div class="reading-width">
+        <h2 id="gameplay-title">Time is part of the strategy</h2>
+        <p><strong>Beats instead of turns.</strong> Every skill costs a number of beats, and heroes and enemies move along the same timeline. While an enemy winds up a slow, heavy attack, a nimble hero can slip in several quick moves. Haste and delay effects push units along the timeline, so a weak but fast skill can matter more than a strong one.</p>
+        <p><strong>Read the intent, break the poise.</strong> Enemies show what they will do next and whom they will hit. Wear down their poise to Break them: a Broken enemy loses a beat, its armor shatters, and the next hit lands for extra damage.</p>
+        <p><strong>A party that keeps changing.</strong> Pick four of seven heroes. Along the way they learn new skills and awaken random upgrades, collect relics and potions, and face events, shops and campfires across three regions: Rotroot Forest, Thornwood Abbey and the Dayless Sanctum.</p>
+      </div>
+      <div class="figure-pair">
+        <figure><img src="{{ site.baseurl }}/projects/before-dawn/assets/battle.png" alt="A battle against the Dayless, a mass of red flesh covered in eyes, and its two eyes. Each enemy shows its next move above its head." loading="lazy" width="1280" height="720"><figcaption>The final fight: every enemy shows its next move, and the turn order runs along the top.</figcaption></figure>
+        <figure><img src="{{ site.baseurl }}/projects/before-dawn/assets/map.png" alt="The map of Rotroot Forest: a winding path of battles, events, campfires and shops leading to a boss." loading="lazy" width="1280" height="720"><figcaption>Each region is a branching path of battles, events, shops and campfires, ending in a boss.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="content-section container" id="behind" aria-labelledby="behind-title">
+      <div class="reading-width">
+        <h2 id="behind-title">Behind the game</h2>
+        <p>I made Before Dawn in about five days, starting on October 7, 2026. I was responsible for the design, mechanics, testing and tuning; Claude wrote much of the code, and ChatGPT helped with the character art. A few things I learned along the way:</p>
+        <ul class="lessons">
+          <li><strong>Balancing is far harder than it looks.</strong> Skills that seem weak alone can become overpowered in combination, and once heroes, relics, enemies and random upgrades interact, tuning the whole game becomes a very hard problem.</li>
+          <li><strong>A language model can be a great programmer, but not necessarily a great player.</strong> It knows what every skill does, yet still makes moves no human would, which makes automated playtesting harder than expected.</li>
+          <li><strong>AI does not remove the cost of development; it changes what the cost is made of.</strong> Writing code is no longer the bottleneck, but design, testing, balancing and polish still take a great deal of time.</li>
+        </ul>
+        <p>The full essay is waiting inside the game, on the About page. It unlocks after your first clear.</p>
+      </div>
+    </section>
+
+    <section class="content-section container" id="controls" aria-labelledby="controls-title">
+      <div class="reading-width">
+        <h2 id="controls-title">Controls</h2>
+        <dl class="controls">
+          <div><dt>Mouse</dt><dd>Choose skills and targets; hover anything for details</dd></div>
+          <div><dt><kbd>1</kbd>–<kbd>7</kbd></dt><dd>Pick a skill</dd></div>
+          <div><dt>Right click</dt><dd>Cancel</dd></div>
+          <div><dt><kbd>F1</kbd></dt><dd>Rules</dd></div>
+          <div><dt><kbd>F11</kbd></dt><dd>Full screen</dd></div>
+          <div><dt><kbd>M</kbd></dt><dd>Music on or off</dd></div>
+        </dl>
+        <p class="note">Switch between English and Chinese on the title screen. The browser version needs a desktop browser with a mouse and keyboard; phones are not supported.</p>
+        <div class="resource-links start">
+          <a class="resource play" href="{{ site.baseurl }}/projects/before-dawn/play/"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4l10 6-10 6z"/></svg>Play in browser</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="container">
+    <span>© 2026 <a href="{{ site.baseurl }}/">Tianle Wang</a></span>
+    <span>Made with <a href="https://love2d.org">LÖVE</a> · Browser version via <a href="https://github.com/Davidobot/love.js">love.js</a></span>
+  </footer>
+</body>
+</html>
