@@ -1,23 +1,25 @@
 # Update the playable Before Dawn build on this site.
 #   python3 scripts/update_before_dawn.py <web build dir>
-# Copies the love.js web build into projects/before-dawn/play/ and adds the site's Google Analytics tag.
-# The tag only loads on wtl666wtl.github.io, so local previews are not counted.
+# Copies the love.js web build into projects/before-dawn/play/.
+# If GA_ID is set (your own Google Analytics measurement ID, G-...), also adds an analytics tag
+# that only loads on wtl666wtl.github.io, so local previews are not counted.
 import os
 import shutil
 import sys
 
 FILES = ['index.html', 'game.js', 'game.data', 'love.js', 'love.wasm']
+GA_ID = ''   # e.g. 'G-XXXXXXXXXX'; empty = no analytics
 GA = '''  <script>
-    // Google Analytics, same property as the homepage; live site only
+    // Google Analytics; live site only
     if (location.hostname === 'wtl666wtl.github.io') {
       var ga = document.createElement('script');
       ga.async = true;
-      ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9';
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=GA_ID';
       document.head.appendChild(ga);
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { dataLayer.push(arguments); };
       gtag('js', new Date());
-      gtag('config', 'G-E00L9PT3V9');
+      gtag('config', 'GA_ID');
     }
   </script>
 '''
@@ -31,7 +33,9 @@ def main(src):
     page = os.path.join(dst, 'index.html')
     html = open(page, encoding='utf-8').read()
     assert '</head>' in html and 'googletagmanager' not in html, 'unexpected index.html'
-    open(page, 'w', encoding='utf-8').write(html.replace('</head>', GA + '</head>', 1))
+    if GA_ID:
+        html = html.replace('</head>', GA.replace('GA_ID', GA_ID) + '</head>', 1)
+    open(page, 'w', encoding='utf-8').write(html)
     print('Updated', os.path.normpath(dst))
 
 
