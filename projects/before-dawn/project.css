@@ -17,6 +17,9 @@ img,svg{display:block;max-width:100%}h1,h2,h3,p,figure,dl,dd{margin:0}p+p{margin
 /* the poster, edge to edge, with the buttons under the title */
 .hero{position:relative}
 .hero-poster{width:100%;height:auto}
+/* the poster is 2172 px wide: where the screen needs more pixels than that, enlarge it like pixel art (hard edges)
+   instead of smoothing it into a blur; where it is shown smaller, the default smooth scaling is better */
+@media(min-width:2173px),(min-resolution:1.5dppx) and (min-width:1449px),(min-resolution:2dppx) and (min-width:1087px){.hero-poster{image-rendering:-webkit-optimize-contrast;image-rendering:pixelated}}
 .hero::after{content:'';position:absolute;z-index:1;left:0;right:0;bottom:0;height:16%;background:linear-gradient(rgba(12,11,14,0),var(--bg));pointer-events:none}
 .hero-cta{position:absolute;z-index:2;left:30.6%;top:72%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px;width:max-content}
 .hero-note{font-size:13px;color:rgba(236,227,212,.66)}.hero-note a{color:rgba(236,227,212,.85)}
