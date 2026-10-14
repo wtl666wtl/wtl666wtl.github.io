@@ -8,7 +8,7 @@ import shutil
 import sys
 
 FILES = ['index.html', 'game.js', 'game.data', 'love.js', 'love.wasm']
-GA_ID = ''   # e.g. 'G-XXXXXXXXXX'; empty = no analytics
+GA_ID = 'G-HCH7Z5DLZW'   # same as _includes/analytics.html; empty = no analytics
 GA = '''  <script>
     // Google Analytics; live site only
     if (location.hostname === 'wtl666wtl.github.io') {

@@ -19,6 +19,19 @@
     #credit { position: absolute; bottom: 14px; font-size: 12px; color: #5d5547; }
     #credit a { color: #7d725f; }
   </style>
+  <script>
+    // Google Analytics; live site only
+    if (location.hostname === 'wtl666wtl.github.io') {
+      var ga = document.createElement('script');
+      ga.async = true;
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-HCH7Z5DLZW';
+      document.head.appendChild(ga);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { dataLayer.push(arguments); };
+      gtag('js', new Date());
+      gtag('config', 'G-HCH7Z5DLZW');
+    }
+  </script>
 </head>
 <body>
   <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
@@ -43,6 +56,19 @@
       function resume() { ctxs.forEach(function (c) { if (c.state !== 'running' && c.resume) c.resume(); }); }
       ['mousedown', 'keydown', 'touchstart', 'click'].forEach(function (ev) { window.addEventListener(ev, resume, true); });
     })();
+
+    // 滚轮：这一版 love.js 把浏览器给的滚动量原样交给游戏，鼠标滚一格就是 100（像素），游戏一下滚到头或尾。
+    // 先换算成「格」再交给游戏，和桌面版一样一格一格地滚：像素按 100 一格，行按 3 行一格；触控板的小步会攒够一格再滚
+    window.addEventListener('wheel', function (e) {
+      if (!e.isTrusted || e.target.id !== 'canvas') return;   // 换算过的那份（自己发的）直接放行
+      e.preventDefault(); e.stopImmediatePropagation();
+      var k = e.deltaMode === 1 ? 1 / 3 : e.deltaMode === 2 ? 10 : 1 / 100;
+      e.target.dispatchEvent(new WheelEvent('wheel', {
+        deltaX: e.deltaX * k, deltaY: e.deltaY * k, deltaMode: 0, bubbles: true, cancelable: true,
+        clientX: e.clientX, clientY: e.clientY, screenX: e.screenX, screenY: e.screenY,
+        ctrlKey: e.ctrlKey, shiftKey: e.shiftKey, altKey: e.altKey, metaKey: e.metaKey
+      }));
+    }, {capture: true, passive: false});
 
     // 空格、方向键别让页面滚动；点一下画布把键盘焦点交给游戏
     window.addEventListener('keydown', function (e) { if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) e.preventDefault(); }, false);
